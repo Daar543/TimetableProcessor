@@ -1,0 +1,20 @@
+{%include 'header.html'%}
+<body>
+{% set title='Import' %}
+{% include 'navigation.html' %}
+<h1>Importing timetable from XLSX</h1>
+{% include 'inline_errors.html' %}
+<div>
+<form action="/timetables/import/submit" method="post" enctype="multipart/form-data">
+    <div>
+        <input type="file" name="file" id="file">
+    </div>
+    <div>
+        <label for="jdfName">Name of the imported JDF</label>
+        <input type="text" name="jdfName" id="jdfName" placeholder="Name">
+    </div>
+    <input type="submit" value="Submit" class="showProcessing">
+</form>
+</div>
+</body>
+{% include 'footer.html' %}

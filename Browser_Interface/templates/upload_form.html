@@ -1,0 +1,159 @@
+{% include 'header.html'%}
+<body>
+{% set title='Load' %}
+{% include 'navigation.html' %}
+{% include 'inline_errors.html' %}
+<h1>Uploading of JDF</h1>
+<h2>Submit one or more JDF folders</h2>
+<form action="/upload/main/submit" method="post" enctype="multipart/form-data" id="folder_form">
+    <div id="folders">
+        <button type="button" id="addInput" onclick="addFolderInputLine()">+</button>
+    </div>
+    <script>
+        let rowCounter = 0;
+
+        function addFolderInputLine() {
+            let row = document.createElement("div");
+            // Insert the new row between the last row and the button
+            document.getElementById("folders").insertBefore(row, document.getElementById("addInput"));
+
+            let input = document.createElement("input");
+            input.type = "file";
+            input.name = "file[]";
+            input.webkitdirectory = true;
+            input.directory = true;
+            input.multiple = true;
+            input.id = "file_" + rowCounter.toString();
+            input.oninput = function () {
+                rewriteFolderName(input);
+                validateNames();
+            };
+            row.appendChild(input);
+
+            let trashButton = document.createElement("button");
+            trashButton.type = "button";
+            trashButton.innerText = "X";
+            trashButton.classList.add("trash-button");
+            trashButton.onclick = function () {
+                // Remove the uploaded files
+                row.remove();
+                validateNames();
+            };
+
+
+            let lbl = document.createElement("label");
+            lbl.for = "file_" + rowCounter.toString()
+            lbl.className = "folder_name";
+
+            row.appendChild(trashButton);
+            row.appendChild(input);
+            row.appendChild(lbl);
+
+            rowCounter++;
+            validateNames();
+        }
+
+        function rewriteFolderName(uploadInput) {
+            const textLabel = uploadInput.parentElement.querySelector(".folder_name");
+            const files = uploadInput.files;
+            if (files.length === 0) return;
+            const folder = files[0].webkitRelativePath.split("/")[0];
+            textLabel.innerText = "[" + folder + "]";
+        }
+
+        function validateNames() {
+            const labels = document.getElementById("folder_form").querySelectorAll(".folder_name");
+            const submitButton = document.getElementById("folder_form").querySelector("input[type=submit]");
+            const namesIndexes = [];
+            const highlight = [];
+            let empty = true;
+
+            for (let i = 0; i < labels.length; i++) {
+                const name = labels[i].innerText;
+                if (name === "") {
+                    //highlight.push(labels[i]); //no need, empty get ignored
+                } else {
+                    empty=false;
+                    if (namesIndexes[name] === undefined) {
+                        namesIndexes[name] = [i];
+                    } else {
+                        namesIndexes[name].push(i);
+                    }
+                }
+            }
+            for (let name in namesIndexes) {
+                let indexes = namesIndexes[name];
+                if (indexes.length > 1) {
+                    indexes.forEach(function (index) {
+                        highlight.push(labels[index]);
+                    });
+                }
+            }
+            // Redraw and change submit
+            labels.forEach(function (item) {
+                item.style.color = "black";
+            });
+            if (highlight.length > 0) {
+                highlight.forEach(function (item) {
+                    item.style.color = "red";
+                });
+                submitButton.disabled = true;
+            } else {
+                submitButton.disabled = false;
+            }
+            if (empty) {
+                submitButton.disabled = true;
+            }
+        }
+    </script>
+    <!-- Merging options: Do not merge, only merge, merge and keep -->
+    <div>
+        <label for="merge">Merge options:</label>
+        <select name="merge" id="merge" onchange="changeMergeTextBoxes()">
+            <option value="no-merge">Keep each folder separately</option>
+            <option value="only-merge">Merge the contents into one JDF</option>
+            <option value="keep-merge">Merge and keep</option>
+        </select>
+        <input type="text" name="merge_name" id="merge_name" placeholder="Name of the merged JDF" disabled>
+    </div>
+    <script>
+        function changeMergeTextBoxes() {
+            let merge = document.getElementById("merge");
+            let merge_name = document.getElementById("merge_name");
+            let folder_textboxes = document.getElementsByName("new_folder_name[]");
+            if (merge.value === "no-merge") {
+                merge_name.disabled = true;
+                merge_name.style.visibility = "hidden";
+                folder_textboxes.forEach(function (item) {
+                    item.disabled = false;
+                });
+            } else if (merge.value === "only-merge") {
+                merge_name.disabled = false;
+                merge_name.style.visibility = "visible";
+                folder_textboxes.forEach(function (item) {
+                    item.disabled = true;
+                });
+            } else if (merge.value === "keep-merge") {
+                merge_name.disabled = false;
+                merge_name.style.visibility = "visible";
+                folder_textboxes.forEach(function (item) {
+                    item.disabled = false;
+                });
+            }
+        }
+    </script>
+    <div>
+        <input type="submit" value="Upload and validate" disabled="">
+    </div>
+</form>
+<script>
+    window.onload = function () {
+        addFolderInputLine();
+        changeMergeTextBoxes();
+        document.getElementsByName("file[]").forEach(function (item) {
+            rewriteFolderName(item);
+        });
+    }
+</script>
+</body>
+{% include 'footer.html' %}

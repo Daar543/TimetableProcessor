@@ -1,0 +1,11 @@
+{% include 'header.html' %}
+<body>
+{% include 'navigation.html' %}
+<h1>Bus schedule visualization</h1>
+{% include 'inline_errors.html' %}
+<h2>Rendering complete</h2>
+<div id="download">
+    <a href="/download/visualization?{{downloadArgs}}" target="_blank" rel="noopener noreferrer">Download maps</a>
+</div>
+</body>
+{% include 'footer.html' %}

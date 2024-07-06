@@ -1,0 +1,25 @@
+{% include 'header.html' %}
+<body>
+{% set title='Main' %}
+{% include 'navigation.html' %}
+</body>
+<div style="text-align:center">
+<h1>Bus timetable processor</h1>
+<p>Welcome to the bus timetable processor. This application is designed to create bus schedules directly from timetables in JDF format.</p>
+<h2>Getting started</h2>
+<h3>Default scheduling</h3>
+<p>In <strong>Upload JDF</strong>, select a folder with JDF 1.11 timetable batch to process and upload to a server.</p>
+<p>In <strong>Query trips</strong>, you can select a time range to verify trips in the uploaded batch.</p>
+<p>Use <strong>Schedule buses</strong> to create a schedule for buses which serve all trips in the uploaded JDF within 24-hour window.</p>
+
+<h3>Human-readable timetables</h3>
+<p>You can download a human-readable version on the timetables on the page <strong>Export timetables to XLSX</strong></p>
+<p>You can edit the downloaded timetables in external spreadsheet processor and then upload them using <strong>Import timetables in XLSX</strong>.<br>
+After you get familiar with the timetable format, you can try importing your own.
+</p>
+
+<h3>Using map data</h3>
+<p>Use <strong>List of stops</strong> to add new stop locations to the server. These can also be used for more accurate bus scheduling.</p>
+<p>Use <strong>Visualize schedules</strong> to create plots on map background to visualize the schedules.</p>
+</div>
+{% include 'footer.html' %}

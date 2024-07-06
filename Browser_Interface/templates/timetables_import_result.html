@@ -1,0 +1,16 @@
+{%include 'header.html'%}
+<body>
+{% include 'navigation.html' %}
+{% include 'inline_errors.html' %}
+<h1>Importing timetable from XLSX</h1>
+<h2>Result</h2>
+<div>
+    {% if overwritten %}
+        <p style="color:{{resultColor}}">Successfully imported timetables as {{ resultName }}. The previous result was overwritten.</p>
+    {% else %}
+        <p style="color:{{resultColor}}">Successfully imported timetables as {{ resultName }}.</p>
+    {% endif %}
+</div>
+    <a href="/timetables/import/main">Import another timetable</a>
+</body>
+{% include 'footer.html' %}

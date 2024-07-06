@@ -1,0 +1,8 @@
+"400632","1","Na trase je mezi zastávkami Bìlá n.Radb.,mìsto a Bìlá n.Radb.,Bystøice snížený profil podjezdu pod tratí è. 184 s maximální výškou 3,0 metru.","1";
+"400834","1","Na trase je mezi zastávkami Spáòov a Mrákov,,rozc.0.6 snížený profil podjezdu pod tratí è. 185 s maximální výškou 3,0 metru.","1";
+"430858","1","Na trase je mezi zastávkami Švihov,,K Lesovnì a Švihov,Kamýk snížený profil podjezdu pod tratí è. 183 s maximální výškou 3,1 metru.","1";
+"430935","1","Na trase je mezi zastávkami Myslív,Milèice a Olšany,rozc.0.3 snížený profil podjezdu pod tratí è. 190 s maximální výškou 2,8 metru.","1";
+"440321","1","Zastávku Plasy,,žel.st. je možné obsluhovat pouze vozy max. délky cca 13 m.","1";
+"450422","1","Na trase je mezi zastávkami Blovice,èerp.st. a Seè,obec snížený profil podjezdu pod tratí è. 190 s maximální výškou 2,6 metru.","1";
+"490756","1","Na trase je mezi zastávkami Planá,,žel.st. a Planá,,Karlín snížený profil podjezdu pod tratí è. 170 s maximální výškou 2,9 metru.","1";
+"490757","1","Na trase je mezi zastávkami Planá,,žel.st. a Planá,,Karlín snížený profil podjezdu pod tratí è. 170 s maximální výškou 2,9 metru.","1";

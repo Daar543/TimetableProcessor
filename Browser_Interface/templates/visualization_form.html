@@ -1,0 +1,56 @@
+{% include 'header.html' %}
+<body>
+{% set title='Visualization' %}
+{% include 'navigation.html' %}
+<h1>Bus schedule visualization</h1>
+{% include 'inline_errors.html' %}
+<div>
+    <form action="/visualize/submit" method="post" enctype=multipart/form-data>
+            <div class="input-row">
+                <label for="scheduleFile">JSON file with scheduled trips</label>
+                <input type="file" name="scheduleFile" id="scheduleFile" onchange="checkFileSubmit()">
+            </div>
+            <div class="input-row">
+                <label for="track_complexity">Render trips as:</label>
+                <select id="track_complexity" name="track_complexity">
+                    <option value="direct">Direct lines between stops</option>
+                    <option value="navigation">Real path through OSM points (slow)</option>
+                </select>
+            </div>
+            <div class="input-row">
+                <label for="same_routes">Draw trips going through the same stops as:</label>
+                <select id="same_routes" name="same_routes">
+                    <option value="overlap" selected>Overlapping lines</option>
+                    <option value="parallel">Parallel lines</option>
+                    <option value="curve">Curves with the same start and end</option>
+                </select>
+            </div>
+
+        <input type="submit" id="submitbt" value="Render maps and download" class="showProcessing">
+    </form>
+    <script>
+        function checkFileSubmit() {
+            const files = document.getElementById("scheduleFile").files;
+            const submitbt = document.getElementById("submitbt");
+            if (files.length === 0) {
+                submitbt.disabled = true;
+                return;
+            }
+            let file = files[0];
+            // check only the suffix, not the data
+            if (!file.name.endsWith('.json')) {
+                alert('Warning: only JSON files are supported');
+            }
+            submitbt.disabled = false;
+        }
+    </script>
+</div>
+
+
+</body>
+<script>
+    window.onload = function () {
+        checkFileSubmit();
+    }
+</script>
+{% include 'footer.html' %}

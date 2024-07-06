@@ -1,0 +1,3610 @@
+{
+  "Bus schedules": [
+    {
+      "Bus number": 1,
+      "Pull-in": null,
+      "Pull-out": null,
+      "Total deadheading time": 20,
+      "Total trip time": 639,
+      "Total waiting time": 491,
+      "Trips": [
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Česká Kubice,Folmava[DO]",
+          "End time": "04:52",
+          "Line": 400831,
+          "Start stop": "Domažlice,,u pohřební služby[DO]",
+          "Start time": "04:17",
+          "Stops": [
+            {
+              "Domažlice,,u pohřební služby[DO]": "04:17"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "04:20"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "04:22"
+            },
+            {
+              "Domažlice,Havlovice[DO]": "04:24"
+            },
+            {
+              "Domažlice,Havlovice,Valcha[DO]": "04:25"
+            },
+            {
+              "Babylon,,Hadrovec[DO]": "04:27"
+            },
+            {
+              "Babylon,,koupaliště[DO]": "04:29"
+            },
+            {
+              "Babylon,,hotel Bohmann[DO]": "04:30"
+            },
+            {
+              "Babylon,,hotel Belveder[DO]": "04:31"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "04:35"
+            },
+            {
+              "Česká Kubice,,žel.st.[DO]": "04:36"
+            },
+            {
+              "Česká Kubice,Malý Spálenec[DO]": "04:38"
+            },
+            {
+              "Česká Kubice,Spálenec,školka[DO]": "04:39"
+            },
+            {
+              "Česká Kubice,Spálenec[DO]": "04:40"
+            },
+            {
+              "Česká Kubice,Spálenec,školka[DO]": "04:41"
+            },
+            {
+              "Česká Kubice,Malý Spálenec[DO]": "04:42"
+            },
+            {
+              "Česká Kubice,,žel.st.[DO]": "04:44"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "04:45"
+            },
+            {
+              "Česká Kubice,,škola[DO]": "04:46"
+            },
+            {
+              "Česká Kubice,Folmava[DO]": "04:52"
+            }
+          ],
+          "Trip": 1,
+          "Trip time": 35,
+          "Waiting time": 0
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "05:21",
+          "Line": 400831,
+          "Start stop": "Česká Kubice,Folmava[DO]",
+          "Start time": "04:52",
+          "Stops": [
+            {
+              "Česká Kubice,Folmava[DO]": "04:52"
+            },
+            {
+              "Česká Kubice,,škola[DO]": "04:55"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "04:58"
+            },
+            {
+              "Babylon,,hotel Belveder[DO]": "05:01"
+            },
+            {
+              "Babylon,,hotel Bohmann[DO]": "05:02"
+            },
+            {
+              "Babylon,,koupaliště[DO]": "05:03"
+            },
+            {
+              "Babylon,,Hadrovec[DO]": "05:05"
+            },
+            {
+              "Domažlice,Havlovice,Valcha[DO]": "05:06"
+            },
+            {
+              "Domažlice,Havlovice[DO]": "05:08"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "05:10"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "05:11"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "05:12"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "05:14"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "05:21"
+            }
+          ],
+          "Trip": 2,
+          "Trip time": 29,
+          "Waiting time": 6
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Horšovský Týn,,Plastik[DO]",
+          "End time": "05:47",
+          "Line": 400631,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "05:27",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "05:27"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "05:30"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "05:32"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "05:36"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "05:38"
+            },
+            {
+              "Horšovský Týn[DO]": "05:43"
+            },
+            {
+              "Horšovský Týn,,Plastik[DO]": "05:47"
+            }
+          ],
+          "Trip": 3,
+          "Trip time": 20,
+          "Waiting time": 0
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Horšovský Týn,Horní Metelsko[DO]",
+          "End time": "05:54",
+          "Line": 400648,
+          "Start stop": "Horšovský Týn,,Plastik[DO]",
+          "Start time": "05:47",
+          "Stops": [
+            {
+              "Horšovský Týn,,Plastik[DO]": "05:47"
+            },
+            {
+              "Horšovský Týn,Horšov[DO]": "05:49"
+            },
+            {
+              "Horšovský Týn,Horní Metelsko[DO]": "05:54"
+            }
+          ],
+          "Trip": 31,
+          "Trip time": 7,
+          "Waiting time": 6
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Horšovský Týn,,Plastik[DO]",
+          "End time": "06:07",
+          "Line": 400648,
+          "Start stop": "Horšovský Týn,Horní Metelsko[DO]",
+          "Start time": "06:00",
+          "Stops": [
+            {
+              "Horšovský Týn,Horní Metelsko[DO]": "06:00"
+            },
+            {
+              "Horšovský Týn,Horšov[DO]": "06:05"
+            },
+            {
+              "Horšovský Týn,,Plastik[DO]": "06:07"
+            }
+          ],
+          "Trip": 32,
+          "Trip time": 7,
+          "Waiting time": 0
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "06:23",
+          "Line": 400631,
+          "Start stop": "Horšovský Týn,,Plastik[DO]",
+          "Start time": "06:07",
+          "Stops": [
+            {
+              "Horšovský Týn,,Plastik[DO]": "06:07"
+            },
+            {
+              "Horšovský Týn[DO]": "06:10"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "06:14"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "06:16"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "06:20"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "06:23"
+            }
+          ],
+          "Trip": 8,
+          "Trip time": 16,
+          "Waiting time": 42
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Nový Kramolín[DO]",
+          "End time": "07:20",
+          "Line": 400633,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "07:05",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "07:05"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "07:07"
+            },
+            {
+              "Draženov[DO]": "07:12"
+            },
+            {
+              "Ždánov[DO]": "07:15"
+            },
+            {
+              "Pařezov,,rozc.0.6[DO]": "07:17"
+            },
+            {
+              "Nový Kramolín[DO]": "07:20"
+            }
+          ],
+          "Trip": 10,
+          "Trip time": 15,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "07:44",
+          "Line": 400633,
+          "Start stop": "Nový Kramolín[DO]",
+          "Start time": "07:21",
+          "Stops": [
+            {
+              "Nový Kramolín[DO]": "07:21"
+            },
+            {
+              "Pařezov,,rozc.0.6[DO]": "07:25"
+            },
+            {
+              "Ždánov[DO]": "07:27"
+            },
+            {
+              "Draženov[DO]": "07:30"
+            },
+            {
+              "Luženičky,Luženice[DO]": "07:33"
+            },
+            {
+              "Luženičky[DO]": "07:35"
+            },
+            {
+              "Domažlice,,Benešova II[DO]": "07:39"
+            },
+            {
+              "Domažlice,,Benešova I[DO]": "07:40"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "07:44"
+            }
+          ],
+          "Trip": 9,
+          "Trip time": 23,
+          "Waiting time": 39
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,nová nem.[DO]",
+          "End time": "08:45",
+          "Line": 405611,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "08:23",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "08:23"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "08:25"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "08:27"
+            },
+            {
+              "Domažlice,,Mánesova I.[DO]": "08:29"
+            },
+            {
+              "Domažlice,,Mánesova II.[DO]": "08:30"
+            },
+            {
+              "Domažlice,,Švabinského[DO]": "08:31"
+            },
+            {
+              "Domažlice,,Baarova I.[DO]": "08:32"
+            },
+            {
+              "Domažlice,,Baarova II.[DO]": "08:33"
+            },
+            {
+              "Domažlice,,Čapka Choda[DO]": "08:34"
+            },
+            {
+              "Domažlice,,Sadová[DO]": "08:35"
+            },
+            {
+              "Domažlice,,Dvořákova[DO]": "08:38"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "08:42"
+            },
+            {
+              "Domažlice,,Palackého[DO]": "08:43"
+            },
+            {
+              "Domažlice,,nová nem.[DO]": "08:45"
+            }
+          ],
+          "Trip": 14,
+          "Trip time": 22,
+          "Waiting time": 50
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "09:44",
+          "Line": 405611,
+          "Start stop": "Domažlice,,nová nem.[DO]",
+          "Start time": "09:35",
+          "Stops": [
+            {
+              "Domažlice,,nová nem.[DO]": "09:35"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "09:37"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "09:39"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "09:41"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "09:42"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "09:44"
+            }
+          ],
+          "Trip": 11,
+          "Trip time": 9,
+          "Waiting time": 26
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "10:14",
+          "Line": 405611,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "10:10",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "10:10"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "10:12"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "10:14"
+            }
+          ],
+          "Trip": 18,
+          "Trip time": 4,
+          "Waiting time": 49
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klatovy,,nádraží ČD[KT]",
+          "End time": "11:56",
+          "Line": 400821,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "11:03",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "11:03"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "11:04"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "11:07"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "11:08"
+            },
+            {
+              "Domažlice,,bytové družstvo[DO]": "11:10"
+            },
+            {
+              "Zahořany,,Na Kočárku[DO]": "11:11"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "11:12"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "11:13"
+            },
+            {
+              "Kout na Šumavě[DO]": "11:15"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "11:16"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "11:17"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "11:19"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "11:21"
+            },
+            {
+              "Kdyně,,aut.st.[DO]": "11:24"
+            },
+            {
+              "Brnířov[DO]": "11:27"
+            },
+            {
+              "Kdyně,Hluboká[DO]": "11:29"
+            },
+            {
+              "Kdyně,Dobříkov,rozc.0.8[DO]": "11:31"
+            },
+            {
+              "Kdyně,Smržovice,rozc.0.5[DO]": "11:32"
+            },
+            {
+              "Loučim[DO]": "11:35"
+            },
+            {
+              "Libkov[DO]": "11:38"
+            },
+            {
+              "Dlažov,Nová Víska[KT]": "11:40"
+            },
+            {
+              "Dlažov,Vráž[KT]": "11:41"
+            },
+            {
+              "Dlažov,Soustov,rozc.0.5[KT]": "11:43"
+            },
+            {
+              "Bezděkov,Koryta,rozc.0.2[KT]": "11:45"
+            },
+            {
+              "Klatovy,Kal,rozc.0.5[KT]": "11:47"
+            },
+            {
+              "Klatovy,Beňovy[KT]": "11:48"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "11:49"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "11:52"
+            },
+            {
+              "Klatovy,,u aut.nádr.[KT]": "11:54"
+            },
+            {
+              "Klatovy,,nádraží ČD[KT]": "11:56"
+            }
+          ],
+          "Trip": 15,
+          "Trip time": 53,
+          "Waiting time": 10
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "12:55",
+          "Line": 430969,
+          "Start stop": "Klatovy,,nádraží ČD[KT]",
+          "Start time": "12:06",
+          "Stops": [
+            {
+              "Klatovy,,nádraží ČD[KT]": "12:06"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "12:08"
+            },
+            {
+              "Klatovy,,Vídeňská[KT]": "12:12"
+            },
+            {
+              "Klatovy,Luby,u drůb.záv.[KT]": "12:13"
+            },
+            {
+              "Klatovy,Luby,u pošty[KT]": "12:15"
+            },
+            {
+              "Klatovy,Luby,u drůbežárny[KT]": "12:17"
+            },
+            {
+              "Vrhaveč,Malá Víska[KT]": "12:18"
+            },
+            {
+              "Vrhaveč,,škola[KT]": "12:19"
+            },
+            {
+              "Vrhaveč[KT]": "12:20"
+            },
+            {
+              "Vrhaveč,Dubový Mlýn[KT]": "12:21"
+            },
+            {
+              "Vrhaveč,Neznašovy[KT]": "12:23"
+            },
+            {
+              "Běšiny,,u žel.přejezdu[KT]": "12:26"
+            },
+            {
+              "Běšiny,Kozí[KT]": "12:28"
+            },
+            {
+              "Strážov,Kněžice,rozc.1.0[KT]": "12:30"
+            },
+            {
+              "Strážov,Lukavice[KT]": "12:31"
+            },
+            {
+              "Strážov,,u Kovodružstva[KT]": "12:33"
+            },
+            {
+              "Strážov[KT]": "12:40"
+            },
+            {
+              "Strážov,Víteň[KT]": "12:45"
+            },
+            {
+              "Strážov,Brtí[KT]": "12:49"
+            },
+            {
+              "Strážov,Víteň[KT]": "12:53"
+            },
+            {
+              "Strážov[KT]": "12:55"
+            }
+          ],
+          "Trip": 16,
+          "Trip time": 49,
+          "Waiting time": 3
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klatovy,,nádraží ČD[KT]",
+          "End time": "13:28",
+          "Line": 430961,
+          "Start stop": "Strážov[KT]",
+          "Start time": "12:58",
+          "Stops": [
+            {
+              "Strážov[KT]": "12:58"
+            },
+            {
+              "Strážov,Opálka[KT]": "13:01"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "13:03"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "13:05"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "13:07"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "13:11"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "13:12"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "13:13"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "13:14"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "13:16"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "13:19"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "13:20"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "13:22"
+            },
+            {
+              "Klatovy,,nádraží ČD[KT]": "13:28"
+            }
+          ],
+          "Trip": 8,
+          "Trip time": 30,
+          "Waiting time": 7
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "14:05",
+          "Line": 430961,
+          "Start stop": "Klatovy,,nádraží ČD[KT]",
+          "Start time": "13:35",
+          "Stops": [
+            {
+              "Klatovy,,nádraží ČD[KT]": "13:35"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "13:40"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "13:41"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "13:42"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "13:44"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "13:46"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "13:47"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "13:48"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "13:53"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "13:55"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "13:56"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "13:58"
+            },
+            {
+              "Strážov,Opálka[KT]": "14:00"
+            },
+            {
+              "Strážov[KT]": "14:05"
+            }
+          ],
+          "Trip": 7,
+          "Trip time": 30,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Běšiny,,žel.st.[KT]",
+          "End time": "14:18",
+          "Line": 430969,
+          "Start stop": "Strážov[KT]",
+          "Start time": "14:06",
+          "Stops": [
+            {
+              "Strážov[KT]": "14:06"
+            },
+            {
+              "Strážov,,u Kovodružstva[KT]": "14:07"
+            },
+            {
+              "Strážov,Lukavice[KT]": "14:09"
+            },
+            {
+              "Strážov,Kněžice,rozc.1.0[KT]": "14:10"
+            },
+            {
+              "Běšiny,Kozí[KT]": "14:12"
+            },
+            {
+              "Běšiny,,u žel.přejezdu[KT]": "14:13"
+            },
+            {
+              "Běšiny,,u žel.st.[KT]": "14:15"
+            },
+            {
+              "Běšiny,,žel.st.[KT]": "14:18"
+            }
+          ],
+          "Trip": 21,
+          "Trip time": 12,
+          "Waiting time": 6
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Dešenice,Divišovice[KT]",
+          "End time": "14:47",
+          "Line": 430969,
+          "Start stop": "Běšiny,,žel.st.[KT]",
+          "Start time": "14:24",
+          "Stops": [
+            {
+              "Běšiny,,žel.st.[KT]": "14:24"
+            },
+            {
+              "Běšiny,,u žel.st.[KT]": "14:25"
+            },
+            {
+              "Běšiny,,u žel.přejezdu[KT]": "14:26"
+            },
+            {
+              "Běšiny,Kozí[KT]": "14:28"
+            },
+            {
+              "Strážov,Kněžice,rozc.1.0[KT]": "14:30"
+            },
+            {
+              "Strážov,Lukavice[KT]": "14:31"
+            },
+            {
+              "Strážov,,u Kovodružstva[KT]": "14:33"
+            },
+            {
+              "Strážov[KT]": "14:35"
+            },
+            {
+              "Strážov,,garáž ČSAD[KT]": "14:37"
+            },
+            {
+              "Strážov,Zahorčice,u mlýna[KT]": "14:38"
+            },
+            {
+              "Strážov,Zahorčice[KT]": "14:39"
+            },
+            {
+              "Strážov,,garáž ČSAD[KT]": "14:40"
+            },
+            {
+              "Strážov,Krotějov,u Jiříků[KT]": "14:43"
+            },
+            {
+              "Strážov,Krotějov,škola[KT]": "14:44"
+            },
+            {
+              "Dešenice,Děpoltice,rozc.1.8[KT]": "14:45"
+            },
+            {
+              "Dešenice,Divišovice[KT]": "14:47"
+            }
+          ],
+          "Trip": 22,
+          "Trip time": 23,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "14:56",
+          "Line": 430969,
+          "Start stop": "Dešenice,Divišovice[KT]",
+          "Start time": "14:48",
+          "Stops": [
+            {
+              "Dešenice,Divišovice[KT]": "14:48"
+            },
+            {
+              "Dešenice,Děpoltice,rozc.1.8[KT]": "14:50"
+            },
+            {
+              "Strážov,Krotějov,škola[KT]": "14:51"
+            },
+            {
+              "Strážov,Krotějov,u Jiříků[KT]": "14:52"
+            },
+            {
+              "Strážov,,garáž ČSAD[KT]": "14:54"
+            },
+            {
+              "Strážov[KT]": "14:56"
+            }
+          ],
+          "Trip": 23,
+          "Trip time": 8,
+          "Waiting time": 2
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klatovy,,nádraží ČD[KT]",
+          "End time": "15:28",
+          "Line": 430961,
+          "Start stop": "Strážov[KT]",
+          "Start time": "14:58",
+          "Stops": [
+            {
+              "Strážov[KT]": "14:58"
+            },
+            {
+              "Strážov,Opálka[KT]": "15:01"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "15:03"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "15:05"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "15:07"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "15:11"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "15:12"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "15:13"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "15:14"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "15:16"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "15:19"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "15:20"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "15:22"
+            },
+            {
+              "Klatovy,,nádraží ČD[KT]": "15:28"
+            }
+          ],
+          "Trip": 12,
+          "Trip time": 30,
+          "Waiting time": 7
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Staňkov,,žel.st.[DO]",
+          "End time": "16:49",
+          "Line": 400822,
+          "Start stop": "Klatovy,,nádraží ČD[KT]",
+          "Start time": "15:35",
+          "Stops": [
+            {
+              "Klatovy,,nádraží ČD[KT]": "15:35"
+            },
+            {
+              "Klatovy,,nábř.kpt.Nálepky[KT]": "15:39"
+            },
+            {
+              "Klatovy,,Koldinova u Kozaku[KT]": "15:42"
+            },
+            {
+              "Klatovy,,Koldinova u masokomb.[KT]": "15:43"
+            },
+            {
+              "Dolany,Svrčovec,mlýn[KT]": "15:46"
+            },
+            {
+              "Dolany,Svrčovec,náves[KT]": "15:47"
+            },
+            {
+              "Dolany,,VNK[KT]": "15:49"
+            },
+            {
+              "Dolany,,u has.zbroj.[KT]": "15:51"
+            },
+            {
+              "Dolany,Balkovy[KT]": "15:53"
+            },
+            {
+              "Chudenice,Slatina,rozc.1.5[KT]": "15:55"
+            },
+            {
+              "Poleň,Poleňka,rozc.0.3[KT]": "15:58"
+            },
+            {
+              "Poleň[KT]": "16:00"
+            },
+            {
+              "Poleň,Mlýnec,rozc.0.5[KT]": "16:02"
+            },
+            {
+              "Poleň,Zdeslav[KT]": "16:04"
+            },
+            {
+              "Poleň,Liška,rozc.1.0[KT]": "16:06"
+            },
+            {
+              "Chudenice,,Bažantnice[KT]": "16:09"
+            },
+            {
+              "Chudenice,Lučice[KT]": "16:11"
+            },
+            {
+              "Chudenice,,zámek Lázeň[KT]": "16:12"
+            },
+            {
+              "Chudenice,,u školy[KT]": "16:14"
+            },
+            {
+              "Chudenice,,nám.[KT]": "16:17"
+            },
+            {
+              "Chudenice,,u školy[KT]": "16:19"
+            },
+            {
+              "Chudenice,,zámek Lázeň[KT]": "16:21"
+            },
+            {
+              "Chocomyšl[DO]": "16:25"
+            },
+            {
+              "Koloveč,,u pletáren[DO]": "16:29"
+            },
+            {
+              "Koloveč[DO]": "16:31"
+            },
+            {
+              "Srbice[DO]": "16:34"
+            },
+            {
+              "Hlohovčice,,rozc.0.4[DO]": "16:36"
+            },
+            {
+              "Poděvousy[DO]": "16:39"
+            },
+            {
+              "Čermná[DO]": "16:41"
+            },
+            {
+              "Hlohová,,rozc.0.8[DO]": "16:45"
+            },
+            {
+              "Staňkov,,žel.st.[DO]": "16:49"
+            }
+          ],
+          "Trip": 26,
+          "Trip time": 74,
+          "Waiting time": 23
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Poběžovice,,škola[DO]",
+          "End time": "17:41",
+          "Line": 400621,
+          "Start stop": "Staňkov,,žel.st.[DO]",
+          "Start time": "17:12",
+          "Stops": [
+            {
+              "Staňkov,,žel.st.[DO]": "17:12"
+            },
+            {
+              "Staňkov,Vránov[DO]": "17:16"
+            },
+            {
+              "Křenovy[DO]": "17:18"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "17:21"
+            },
+            {
+              "Horšovský Týn[DO]": "17:24"
+            },
+            {
+              "Horšovský Týn,,žel.st.[DO]": "17:26"
+            },
+            {
+              "Horšovský Týn,,koupaliště v Podhájí[DO]": "17:28"
+            },
+            {
+              "Meclov,Mašovice,rozc.1.4[DO]": "17:29"
+            },
+            {
+              "Meclov,,rozc.0.5[DO]": "17:30"
+            },
+            {
+              "Meclov[DO]": "17:32"
+            },
+            {
+              "Poběžovice,Ohnišťovice,u žel.zast.[DO]": "17:35"
+            },
+            {
+              "Poběžovice,Zámělič[DO]": "17:36"
+            },
+            {
+              "Poběžovice,,žel.st.[DO]": "17:38"
+            },
+            {
+              "Poběžovice,,škola[DO]": "17:41"
+            }
+          ],
+          "Trip": 26,
+          "Trip time": 29,
+          "Waiting time": 189
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Hostouň[DO]",
+          "End time": "21:00",
+          "Line": 400635,
+          "Start stop": "Poběžovice,,škola[DO]",
+          "Start time": "20:50",
+          "Stops": [
+            {
+              "Poběžovice,,škola[DO]": "20:50"
+            },
+            {
+              "Poběžovice,Sedlec,rozc.2.0[DO]": "20:52"
+            },
+            {
+              "Drahotín,Bílovice,rozc.2.0[DO]": "20:54"
+            },
+            {
+              "Hostouň,Slatina,rozc.1.5[DO]": "20:55"
+            },
+            {
+              "Hostouň[DO]": "21:00"
+            }
+          ],
+          "Trip": 18,
+          "Trip time": 10,
+          "Waiting time": 5
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Poběžovice,,škola[DO]",
+          "End time": "21:16",
+          "Line": 400635,
+          "Start stop": "Hostouň[DO]",
+          "Start time": "21:05",
+          "Stops": [
+            {
+              "Hostouň[DO]": "21:05"
+            },
+            {
+              "Hostouň,Slatina,rozc.1.5[DO]": "21:10"
+            },
+            {
+              "Drahotín,Bílovice,rozc.2.0[DO]": "21:11"
+            },
+            {
+              "Poběžovice,Sedlec,rozc.2.0[DO]": "21:13"
+            },
+            {
+              "Poběžovice,,škola[DO]": "21:16"
+            }
+          ],
+          "Trip": 17,
+          "Trip time": 11,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "21:54",
+          "Line": 400621,
+          "Start stop": "Poběžovice,,škola[DO]",
+          "Start time": "21:17",
+          "Stops": [
+            {
+              "Poběžovice,,škola[DO]": "21:17"
+            },
+            {
+              "Poběžovice,,žel.st.[DO]": "21:19"
+            },
+            {
+              "Poběžovice,Zámělič[DO]": "21:22"
+            },
+            {
+              "Poběžovice,Ohnišťovice,u žel.zast.[DO]": "21:23"
+            },
+            {
+              "Meclov[DO]": "21:26"
+            },
+            {
+              "Meclov,,rozc.0.5[DO]": "21:28"
+            },
+            {
+              "Meclov,Mašovice,rozc.1.4[DO]": "21:30"
+            },
+            {
+              "Horšovský Týn,,koupaliště v Podhájí[DO]": "21:31"
+            },
+            {
+              "Horšovský Týn,,žel.st.[DO]": "21:34"
+            },
+            {
+              "Horšovský Týn[DO]": "21:36"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "21:39"
+            },
+            {
+              "Křenovy[DO]": "21:42"
+            },
+            {
+              "Staňkov,Vránov[DO]": "21:44"
+            },
+            {
+              "Staňkov,,nám.[DO]": "21:46"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "21:49"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "21:52"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "21:54"
+            }
+          ],
+          "Trip": 31,
+          "Trip time": 37,
+          "Waiting time": 16
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Poběžovice,,škola[DO]",
+          "End time": "22:45",
+          "Line": 400621,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "22:10",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "22:10"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "22:11"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "22:15"
+            },
+            {
+              "Staňkov,,nám.[DO]": "22:18"
+            },
+            {
+              "Staňkov,Vránov[DO]": "22:20"
+            },
+            {
+              "Křenovy[DO]": "22:22"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "22:25"
+            },
+            {
+              "Horšovský Týn[DO]": "22:29"
+            },
+            {
+              "Horšovský Týn,,žel.st.[DO]": "22:31"
+            },
+            {
+              "Horšovský Týn,,koupaliště v Podhájí[DO]": "22:33"
+            },
+            {
+              "Meclov,Mašovice,rozc.1.4[DO]": "22:34"
+            },
+            {
+              "Meclov,,rozc.0.5[DO]": "22:35"
+            },
+            {
+              "Meclov[DO]": "22:37"
+            },
+            {
+              "Poběžovice,Ohnišťovice,u žel.zast.[DO]": "22:40"
+            },
+            {
+              "Poběžovice,Zámělič[DO]": "22:41"
+            },
+            {
+              "Poběžovice,,žel.st.[DO]": "22:43"
+            },
+            {
+              "Poběžovice,,škola[DO]": "22:45"
+            }
+          ],
+          "Trip": 34,
+          "Trip time": 35,
+          "Waiting time": 0
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Hostouň[DO]",
+          "End time": "22:55",
+          "Line": 400635,
+          "Start stop": "Poběžovice,,škola[DO]",
+          "Start time": "22:45",
+          "Stops": [
+            {
+              "Poběžovice,,škola[DO]": "22:45"
+            },
+            {
+              "Poběžovice,Sedlec,rozc.2.0[DO]": "22:47"
+            },
+            {
+              "Drahotín,Bílovice,rozc.2.0[DO]": "22:49"
+            },
+            {
+              "Hostouň,Slatina,rozc.1.5[DO]": "22:50"
+            },
+            {
+              "Hostouň[DO]": "22:55"
+            }
+          ],
+          "Trip": 20,
+          "Trip time": 10,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "End stop": "Poběžovice,,žel.st.[DO]",
+          "End time": "23:07",
+          "Line": 400635,
+          "Start stop": "Hostouň[DO]",
+          "Start time": "22:56",
+          "Stops": [
+            {
+              "Hostouň[DO]": "22:56"
+            },
+            {
+              "Hostouň,Slatina,rozc.1.5[DO]": "23:01"
+            },
+            {
+              "Drahotín,Bílovice,rozc.2.0[DO]": "23:02"
+            },
+            {
+              "Poběžovice,Sedlec,rozc.2.0[DO]": "23:04"
+            },
+            {
+              "Poběžovice,,žel.st.[DO]": "23:07"
+            }
+          ],
+          "Trip": 19,
+          "Trip time": 11
+        }
+      ],
+      "Turn-around": {
+        "End stop": "Domažlice,,u pohřební služby[DO]",
+        "Reserve time": 290,
+        "Return time": 20,
+        "Start stop": "Poběžovice,,žel.st.[DO]"
+      }
+    },
+    {
+      "Bus number": 2,
+      "Pull-in": null,
+      "Pull-out": null,
+      "Total deadheading time": 20,
+      "Total trip time": 646,
+      "Total waiting time": 266,
+      "Trips": [
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Kdyně,,aut.st.[DO]",
+          "End time": "04:54",
+          "Line": 400836,
+          "Start stop": "Všeruby,Hyršov[DO]",
+          "Start time": "04:36",
+          "Stops": [
+            {
+              "Všeruby,Hyršov[DO]": "04:36"
+            },
+            {
+              "Nová Ves u Kdyně[DO]": "04:44"
+            },
+            {
+              "Brnířov,,žel.přejezd[DO]": "04:50"
+            },
+            {
+              "Brnířov,,ves[DO]": "04:51"
+            },
+            {
+              "Brnířov[DO]": "04:52"
+            },
+            {
+              "Kdyně,,aut.st.[DO]": "04:54"
+            }
+          ],
+          "Trip": 2,
+          "Trip time": 18,
+          "Waiting time": 10
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "05:25",
+          "Line": 400821,
+          "Start stop": "Kdyně,,aut.st.[DO]",
+          "Start time": "05:04",
+          "Stops": [
+            {
+              "Kdyně,,aut.st.[DO]": "05:04"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "05:06"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "05:08"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "05:10"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "05:12"
+            },
+            {
+              "Kout na Šumavě[DO]": "05:13"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "05:15"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "05:16"
+            },
+            {
+              "Zahořany,,Na Kočárku[DO]": "05:17"
+            },
+            {
+              "Domažlice,,bytové družstvo[DO]": "05:18"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "05:19"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "05:21"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "05:22"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "05:25"
+            }
+          ],
+          "Trip": 2,
+          "Trip time": 21,
+          "Waiting time": 20
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pelechy[DO]",
+          "End time": "06:02",
+          "Line": 400832,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "05:45",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "05:45"
+            },
+            {
+              "Domažlice,,Havlíčkova[DO]": "05:48"
+            },
+            {
+              "Domažlice,,žel.zast.[DO]": "05:50"
+            },
+            {
+              "Nevolice,,rozc.0.5[DO]": "05:53"
+            },
+            {
+              "Stráž[DO]": "05:54"
+            },
+            {
+              "Pasečnice[DO]": "05:59"
+            },
+            {
+              "Pelechy[DO]": "06:02"
+            }
+          ],
+          "Trip": 1,
+          "Trip time": 17,
+          "Waiting time": 3
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "06:27",
+          "Line": 400832,
+          "Start stop": "Pelechy[DO]",
+          "Start time": "06:05",
+          "Stops": [
+            {
+              "Pelechy[DO]": "06:05"
+            },
+            {
+              "Pasečnice[DO]": "06:08"
+            },
+            {
+              "Stráž[DO]": "06:13"
+            },
+            {
+              "Nevolice,,rozc.0.5[DO]": "06:14"
+            },
+            {
+              "Nevolice[DO]": "06:15"
+            },
+            {
+              "Nevolice,,rozc.0.5[DO]": "06:16"
+            },
+            {
+              "Domažlice,,žel.zast.[DO]": "06:20"
+            },
+            {
+              "Domažlice,,Havlíčkova[DO]": "06:22"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "06:27"
+            }
+          ],
+          "Trip": 4,
+          "Trip time": 22,
+          "Waiting time": 10
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Díly,,ObÚ[DO]",
+          "End time": "07:00",
+          "Line": 400634,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "06:37",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "06:37"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "06:38"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "06:40"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "06:42"
+            },
+            {
+              "Draženov[DO]": "06:46"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "06:52"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "06:53"
+            },
+            {
+              "Díly,,ObÚ[DO]": "07:00"
+            }
+          ],
+          "Trip": 4,
+          "Trip time": 23,
+          "Waiting time": 25
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "08:02",
+          "Line": 400634,
+          "Start stop": "Díly,,ObÚ[DO]",
+          "Start time": "07:25",
+          "Stops": [
+            {
+              "Díly,,ObÚ[DO]": "07:25"
+            },
+            {
+              "Díly,,I[DO]": "07:26"
+            },
+            {
+              "Díly,,II[DO]": "07:27"
+            },
+            {
+              "Postřekov,,I[DO]": "07:30"
+            },
+            {
+              "Postřekov,,II[DO]": "07:31"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "07:36"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "07:37"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "07:40"
+            },
+            {
+              "Trhanov[DO]": "07:42"
+            },
+            {
+              "Trhanov,Pila,rozc.0.5[DO]": "07:44"
+            },
+            {
+              "Újezd,Hrádek[DO]": "07:46"
+            },
+            {
+              "Újezd[DO]": "07:47"
+            },
+            {
+              "Domažlice,Havlovice,rozc.0.5[DO]": "07:50"
+            },
+            {
+              "Újezd,Petrovice[DO]": "07:51"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "07:55"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "07:57"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "07:59"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "08:02"
+            }
+          ],
+          "Trip": 9,
+          "Trip time": 37,
+          "Waiting time": 28
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Česká Kubice,Folmava,celnice[DO]",
+          "End time": "09:07",
+          "Line": 400831,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "08:30",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "08:30"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "08:32"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "08:35"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "08:37"
+            },
+            {
+              "Domažlice,Havlovice[DO]": "08:39"
+            },
+            {
+              "Domažlice,Havlovice,Valcha[DO]": "08:40"
+            },
+            {
+              "Babylon,,Hadrovec[DO]": "08:42"
+            },
+            {
+              "Babylon,,koupaliště[DO]": "08:44"
+            },
+            {
+              "Babylon,,hotel Bohmann[DO]": "08:45"
+            },
+            {
+              "Babylon,,hotel Belveder[DO]": "08:46"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "08:50"
+            },
+            {
+              "Česká Kubice,,žel.st.[DO]": "08:51"
+            },
+            {
+              "Česká Kubice,Malý Spálenec[DO]": "08:53"
+            },
+            {
+              "Česká Kubice,Spálenec,školka[DO]": "08:54"
+            },
+            {
+              "Česká Kubice,Spálenec[DO]": "08:55"
+            },
+            {
+              "Česká Kubice,Spálenec,školka[DO]": "08:56"
+            },
+            {
+              "Česká Kubice,Malý Spálenec[DO]": "08:57"
+            },
+            {
+              "Česká Kubice,,žel.st.[DO]": "08:59"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "09:00"
+            },
+            {
+              "Česká Kubice,,škola[DO]": "09:01"
+            },
+            {
+              "Česká Kubice,Folmava,celnice[DO]": "09:07"
+            }
+          ],
+          "Trip": 5,
+          "Trip time": 37,
+          "Waiting time": 4
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "09:35",
+          "Line": 400831,
+          "Start stop": "Česká Kubice,Folmava,celnice[DO]",
+          "Start time": "09:11",
+          "Stops": [
+            {
+              "Česká Kubice,Folmava,celnice[DO]": "09:11"
+            },
+            {
+              "Česká Kubice,Folmava[DO]": "09:13"
+            },
+            {
+              "Česká Kubice,,škola[DO]": "09:16"
+            },
+            {
+              "Česká Kubice,,Koptovna[DO]": "09:17"
+            },
+            {
+              "Babylon,,hotel Belveder[DO]": "09:20"
+            },
+            {
+              "Babylon,,hotel Bohmann[DO]": "09:21"
+            },
+            {
+              "Babylon,,koupaliště[DO]": "09:22"
+            },
+            {
+              "Babylon,,Hadrovec[DO]": "09:24"
+            },
+            {
+              "Domažlice,Havlovice,Valcha[DO]": "09:26"
+            },
+            {
+              "Domažlice,Havlovice[DO]": "09:27"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "09:29"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "09:30"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "09:31"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "09:33"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "09:35"
+            }
+          ],
+          "Trip": 6,
+          "Trip time": 24,
+          "Waiting time": 40
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "10:50",
+          "Line": 400631,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "10:15",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "10:15"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "10:17"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "10:21"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "10:23"
+            },
+            {
+              "Horšovský Týn[DO]": "10:28"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "10:31"
+            },
+            {
+              "Křenovy[DO]": "10:34"
+            },
+            {
+              "Staňkov,Vránov[DO]": "10:37"
+            },
+            {
+              "Staňkov,,nám.[DO]": "10:40"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "10:43"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "10:47"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "10:50"
+            }
+          ],
+          "Trip": 15,
+          "Trip time": 35,
+          "Waiting time": 12
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Černovice[DO]",
+          "End time": "11:37",
+          "Line": 400841,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "11:02",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "11:02"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "11:03"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "11:05"
+            },
+            {
+              "Kvíčovice,,I[DO]": "11:07"
+            },
+            {
+              "Kvíčovice,,II[DO]": "11:08"
+            },
+            {
+              "Štichov[DO]": "11:12"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "11:18"
+            },
+            {
+              "Všekary[DO]": "11:21"
+            },
+            {
+              "Čečovice[DO]": "11:24"
+            },
+            {
+              "Bukovec,,rozc.0.4[DO]": "11:27"
+            },
+            {
+              "Bukovec[DO]": "11:29"
+            },
+            {
+              "Černovice,Nemněnice[DO]": "11:31"
+            },
+            {
+              "Černovice[DO]": "11:37"
+            }
+          ],
+          "Trip": 11,
+          "Trip time": 35,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "11:58",
+          "Line": 400841,
+          "Start stop": "Černovice[DO]",
+          "Start time": "11:38",
+          "Stops": [
+            {
+              "Černovice[DO]": "11:38"
+            },
+            {
+              "Černovice,,Dom.důch.rozc.0.1[DO]": "11:41"
+            },
+            {
+              "Všekary[DO]": "11:45"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "11:48"
+            },
+            {
+              "Kvíčovice,,II[DO]": "11:50"
+            },
+            {
+              "Kvíčovice,,I[DO]": "11:51"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "11:53"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "11:55"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "11:58"
+            }
+          ],
+          "Trip": 16,
+          "Trip time": 20,
+          "Waiting time": 4
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Černovice[DO]",
+          "End time": "12:32",
+          "Line": 400841,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "12:02",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "12:02"
+            },
+            {
+              "Holýšov,,škola[DO]": "12:05"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "12:08"
+            },
+            {
+              "Kvíčovice,,I[DO]": "12:10"
+            },
+            {
+              "Kvíčovice,,II[DO]": "12:11"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "12:13"
+            },
+            {
+              "Všekary[DO]": "12:16"
+            },
+            {
+              "Čečovice[DO]": "12:19"
+            },
+            {
+              "Bukovec,,rozc.0.4[DO]": "12:22"
+            },
+            {
+              "Bukovec[DO]": "12:23"
+            },
+            {
+              "Černovice,Nemněnice[DO]": "12:26"
+            },
+            {
+              "Černovice[DO]": "12:32"
+            }
+          ],
+          "Trip": 13,
+          "Trip time": 30,
+          "Waiting time": 6
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "12:58",
+          "Line": 400841,
+          "Start stop": "Černovice[DO]",
+          "Start time": "12:38",
+          "Stops": [
+            {
+              "Černovice[DO]": "12:38"
+            },
+            {
+              "Černovice,,Dom.důch.rozc.0.1[DO]": "12:41"
+            },
+            {
+              "Všekary[DO]": "12:45"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "12:48"
+            },
+            {
+              "Kvíčovice,,II[DO]": "12:50"
+            },
+            {
+              "Kvíčovice,,I[DO]": "12:51"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "12:53"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "12:55"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "12:58"
+            }
+          ],
+          "Trip": 18,
+          "Trip time": 20,
+          "Waiting time": 4
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Černovice[DO]",
+          "End time": "13:31",
+          "Line": 400841,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "13:02",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "13:02"
+            },
+            {
+              "Holýšov,,škola[DO]": "13:05"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "13:08"
+            },
+            {
+              "Kvíčovice,,I[DO]": "13:10"
+            },
+            {
+              "Kvíčovice,,II[DO]": "13:11"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "13:13"
+            },
+            {
+              "Všekary[DO]": "13:16"
+            },
+            {
+              "Čečovice[DO]": "13:19"
+            },
+            {
+              "Bukovec,,rozc.0.4[DO]": "13:22"
+            },
+            {
+              "Bukovec[DO]": "13:23"
+            },
+            {
+              "Černovice,Nemněnice[DO]": "13:26"
+            },
+            {
+              "Černovice[DO]": "13:31"
+            }
+          ],
+          "Trip": 17,
+          "Trip time": 29,
+          "Waiting time": 7
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "13:58",
+          "Line": 400841,
+          "Start stop": "Černovice[DO]",
+          "Start time": "13:38",
+          "Stops": [
+            {
+              "Černovice[DO]": "13:38"
+            },
+            {
+              "Černovice,,Dom.důch.rozc.0.1[DO]": "13:41"
+            },
+            {
+              "Všekary[DO]": "13:45"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "13:48"
+            },
+            {
+              "Kvíčovice,,II[DO]": "13:50"
+            },
+            {
+              "Kvíčovice,,I[DO]": "13:51"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "13:53"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "13:55"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "13:58"
+            }
+          ],
+          "Trip": 20,
+          "Trip time": 20,
+          "Waiting time": 4
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Černovice[DO]",
+          "End time": "14:33",
+          "Line": 400841,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "14:02",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "14:02"
+            },
+            {
+              "Holýšov,,škola[DO]": "14:08"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "14:10"
+            },
+            {
+              "Kvíčovice,,I[DO]": "14:13"
+            },
+            {
+              "Kvíčovice,,II[DO]": "14:15"
+            },
+            {
+              "Štichov[DO]": "14:19"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "14:24"
+            },
+            {
+              "Všekary[DO]": "14:27"
+            },
+            {
+              "Černovice,,Dom.důch.rozc.0.1[DO]": "14:30"
+            },
+            {
+              "Černovice[DO]": "14:33"
+            }
+          ],
+          "Trip": 21,
+          "Trip time": 31,
+          "Waiting time": 5
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Holýšov,,žel.st.[DO]",
+          "End time": "15:03",
+          "Line": 400841,
+          "Start stop": "Černovice[DO]",
+          "Start time": "14:38",
+          "Stops": [
+            {
+              "Černovice[DO]": "14:38"
+            },
+            {
+              "Černovice,Nemněnice[DO]": "14:40"
+            },
+            {
+              "Bukovec[DO]": "14:43"
+            },
+            {
+              "Bukovec,,rozc.0.4[DO]": "14:45"
+            },
+            {
+              "Čečovice[DO]": "14:49"
+            },
+            {
+              "Všekary[DO]": "14:51"
+            },
+            {
+              "Neuměř,,rozc.0.4[DO]": "14:54"
+            },
+            {
+              "Kvíčovice,,II[DO]": "14:56"
+            },
+            {
+              "Kvíčovice,,I[DO]": "14:57"
+            },
+            {
+              "Holýšov,,hřbitov[DO]": "14:58"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "15:00"
+            },
+            {
+              "Holýšov,,žel.st.[DO]": "15:03"
+            }
+          ],
+          "Trip": 22,
+          "Trip time": 25,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klatovy,,nádraží ČD[KT]",
+          "End time": "16:28",
+          "Line": 400822,
+          "Start stop": "Holýšov,,žel.st.[DO]",
+          "Start time": "15:04",
+          "Stops": [
+            {
+              "Holýšov,,žel.st.[DO]": "15:04"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "15:05"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "15:08"
+            },
+            {
+              "Staňkov,,nám.[DO]": "15:11"
+            },
+            {
+              "Staňkov,,Pomník padlých[DO]": "15:13"
+            },
+            {
+              "Staňkov,,žel.st.[DO]": "15:19"
+            },
+            {
+              "Hlohová,,rozc.0.8[DO]": "15:22"
+            },
+            {
+              "Čermná[DO]": "15:25"
+            },
+            {
+              "Poděvousy[DO]": "15:27"
+            },
+            {
+              "Hlohovčice,,rozc.0.4[DO]": "15:29"
+            },
+            {
+              "Srbice[DO]": "15:32"
+            },
+            {
+              "Koloveč[DO]": "15:35"
+            },
+            {
+              "Koloveč,,u pletáren[DO]": "15:37"
+            },
+            {
+              "Chocomyšl[DO]": "15:40"
+            },
+            {
+              "Chudenice,,zámek Lázeň[KT]": "15:43"
+            },
+            {
+              "Chudenice,,u školy[KT]": "15:44"
+            },
+            {
+              "Chudenice,,nám.[KT]": "15:46"
+            },
+            {
+              "Chudenice,,u školy[KT]": "15:48"
+            },
+            {
+              "Chudenice,,zámek Lázeň[KT]": "15:50"
+            },
+            {
+              "Chudenice,Lučice[KT]": "15:52"
+            },
+            {
+              "Chudenice,,Bažantnice[KT]": "15:54"
+            },
+            {
+              "Poleň,Liška,rozc.1.0[KT]": "15:56"
+            },
+            {
+              "Poleň,Zdeslav[KT]": "15:57"
+            },
+            {
+              "Poleň,Mlýnec,rozc.0.5[KT]": "15:58"
+            },
+            {
+              "Poleň[KT]": "16:01"
+            },
+            {
+              "Poleň,Poleňka,rozc.0.3[KT]": "16:03"
+            },
+            {
+              "Chudenice,Slatina,rozc.1.5[KT]": "16:06"
+            },
+            {
+              "Dolany,Balkovy[KT]": "16:08"
+            },
+            {
+              "Dolany,,u has.zbroj.[KT]": "16:11"
+            },
+            {
+              "Dolany,,VNK[KT]": "16:13"
+            },
+            {
+              "Dolany,Svrčovec,náves[KT]": "16:16"
+            },
+            {
+              "Dolany,Svrčovec,mlýn[KT]": "16:18"
+            },
+            {
+              "Klatovy,,Koldinova u masokomb.[KT]": "16:21"
+            },
+            {
+              "Klatovy,,Koldinova u Kozaku[KT]": "16:23"
+            },
+            {
+              "Klatovy,,nábř.kpt.Nálepky[KT]": "16:25"
+            },
+            {
+              "Klatovy,,nádraží ČD[KT]": "16:28"
+            }
+          ],
+          "Trip": 29,
+          "Trip time": 84,
+          "Waiting time": 27
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "17:25",
+          "Line": 430961,
+          "Start stop": "Klatovy,,nádraží ČD[KT]",
+          "Start time": "16:55",
+          "Stops": [
+            {
+              "Klatovy,,nádraží ČD[KT]": "16:55"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "17:00"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "17:01"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "17:02"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "17:04"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "17:06"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "17:07"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "17:08"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "17:13"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "17:15"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "17:16"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "17:18"
+            },
+            {
+              "Strážov,Opálka[KT]": "17:20"
+            },
+            {
+              "Strážov[KT]": "17:25"
+            }
+          ],
+          "Trip": 13,
+          "Trip time": 30,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "17:39",
+          "Line": 430969,
+          "Start stop": "Strážov[KT]",
+          "Start time": "17:26",
+          "Stops": [
+            {
+              "Strážov[KT]": "17:26"
+            },
+            {
+              "Strážov,Víteň[KT]": "17:29"
+            },
+            {
+              "Strážov,Brtí[KT]": "17:33"
+            },
+            {
+              "Strážov,Víteň[KT]": "17:37"
+            },
+            {
+              "Strážov[KT]": "17:39"
+            }
+          ],
+          "Trip": 32,
+          "Trip time": 13,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Janovice n.Úhl.,,nám.[KT]",
+          "End time": "17:50",
+          "Line": 430961,
+          "Start stop": "Strážov[KT]",
+          "Start time": "17:40",
+          "Stops": [
+            {
+              "Strážov[KT]": "17:40"
+            },
+            {
+              "Strážov,Opálka[KT]": "17:42"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "17:44"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "17:46"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "17:47"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "17:50"
+            }
+          ],
+          "Trip": 16,
+          "Trip time": 10,
+          "Waiting time": 34
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Strážov[KT]",
+          "End time": "18:35",
+          "Line": 430961,
+          "Start stop": "Janovice n.Úhl.,,nám.[KT]",
+          "Start time": "18:24",
+          "Stops": [
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "18:24"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "18:26"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "18:27"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "18:29"
+            },
+            {
+              "Strážov,Opálka[KT]": "18:31"
+            },
+            {
+              "Strážov[KT]": "18:35"
+            }
+          ],
+          "Trip": 15,
+          "Trip time": 11,
+          "Waiting time": 15
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klatovy,,aut.nádr.[KT]",
+          "End time": "19:16",
+          "Line": 430961,
+          "Start stop": "Strážov[KT]",
+          "Start time": "18:50",
+          "Stops": [
+            {
+              "Strážov[KT]": "18:50"
+            },
+            {
+              "Strážov,Opálka[KT]": "18:53"
+            },
+            {
+              "Strážov,Rovná,rozc.1.0[KT]": "18:55"
+            },
+            {
+              "Janovice n.Úhl.,Ondřejovice,rozc.1.0[KT]": "18:57"
+            },
+            {
+              "Janovice n.Úhl.,,Rozvojová zóna[KT]": "18:59"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "19:03"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "19:04"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "19:05"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "19:06"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "19:08"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "19:11"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "19:12"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "19:14"
+            },
+            {
+              "Klatovy,,aut.nádr.[KT]": "19:16"
+            }
+          ],
+          "Trip": 20,
+          "Trip time": 26,
+          "Waiting time": 4
+        },
+        {
+          "Day": "2020-01-13",
+          "End stop": "Nýrsko,,Komenského[KT]",
+          "End time": "19:48",
+          "Line": 430960,
+          "Start stop": "Klatovy,,aut.nádr.[KT]",
+          "Start time": "19:20",
+          "Stops": [
+            {
+              "Klatovy,,aut.nádr.[KT]": "19:20"
+            },
+            {
+              "Klatovy,,Tylovo nábř.[KT]": "19:23"
+            },
+            {
+              "Klatovy,,u Škodovky[KT]": "19:24"
+            },
+            {
+              "Klatovy,,Domažlické předm.[KT]": "19:25"
+            },
+            {
+              "Lomec,Novákovice,rozc.0.4[KT]": "19:27"
+            },
+            {
+              "Janovice n.Úhl.,Dolní Lhota,rozc.[KT]": "19:29"
+            },
+            {
+              "Janovice n.Úhl.,Granátka[KT]": "19:30"
+            },
+            {
+              "Janovice n.Úhl.,,u ZD[KT]": "19:31"
+            },
+            {
+              "Janovice n.Úhl.,,nám.[KT]": "19:34"
+            },
+            {
+              "Janovice n.Úhl.,Hvízdalka,rozc.0.5[KT]": "19:37"
+            },
+            {
+              "Janovice n.Úhl.,Petrovice n.Úhl.,rozc.[KT]": "19:38"
+            },
+            {
+              "Janovice n.Úhl.,Osiná,rozc.0.5[KT]": "19:40"
+            },
+            {
+              "Nýrsko,Starý Láz,rozc.0.5[KT]": "19:42"
+            },
+            {
+              "Nýrsko,Bystřice n.Úhl.,rozc.0.3[KT]": "19:43"
+            },
+            {
+              "Nýrsko,,nám.[KT]": "19:46"
+            },
+            {
+              "Nýrsko,,Komenského[KT]": "19:48"
+            }
+          ],
+          "Trip": 25,
+          "Trip time": 28
+        }
+      ],
+      "Turn-around": {
+        "End stop": "Všeruby,Hyršov[DO]",
+        "Reserve time": 508,
+        "Return time": 20,
+        "Start stop": "Nýrsko,,Komenského[KT]"
+      }
+    },
+    {
+      "Bus number": 3,
+      "Pull-in": null,
+      "Pull-out": null,
+      "Total deadheading time": 46,
+      "Total trip time": 423,
+      "Total waiting time": 617,
+      "Trips": [
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klenčí p.Čerch.,,žel.zast.[DO]",
+          "End time": "06:21",
+          "Line": 400640,
+          "Start stop": "Klenčí p.Čerch.,,žel.zast.[DO]",
+          "Start time": "06:02",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "06:02"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "06:03"
+            },
+            {
+              "Postřekov,,II[DO]": "06:07"
+            },
+            {
+              "Postřekov,,I[DO]": "06:08"
+            },
+            {
+              "Díly,,II[DO]": "06:10"
+            },
+            {
+              "Díly,,I[DO]": "06:12"
+            },
+            {
+              "Díly,,ObÚ[DO]": "06:13"
+            },
+            {
+              "Klenčí p.Čerch.,,STEATIT[DO]": "06:17"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "06:18"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "06:21"
+            }
+          ],
+          "Trip": 1,
+          "Trip time": 19,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "06:37",
+          "Line": 400641,
+          "Start stop": "Klenčí p.Čerch.,,žel.zast.[DO]",
+          "Start time": "06:22",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "06:22"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "06:25"
+            },
+            {
+              "Trhanov[DO]": "06:27"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "06:28"
+            },
+            {
+              "Chodov,,Jednota[DO]": "06:30"
+            },
+            {
+              "Chodov[DO]": "06:31"
+            },
+            {
+              "Chodov,Podskalí[DO]": "06:33"
+            },
+            {
+              "Pec,,Brusírna[DO]": "06:34"
+            },
+            {
+              "Pec[DO]": "06:37"
+            }
+          ],
+          "Trip": 2,
+          "Trip time": 15,
+          "Waiting time": 8
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klenčí p.Čerch.,,škola[DO]",
+          "End time": "07:05",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "06:45",
+          "Stops": [
+            {
+              "Pec[DO]": "06:45"
+            },
+            {
+              "Pec,,Brusírna[DO]": "06:47"
+            },
+            {
+              "Chodov,Podskalí[DO]": "06:48"
+            },
+            {
+              "Chodov[DO]": "06:49"
+            },
+            {
+              "Chodov,,Jednota[DO]": "06:52"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "06:54"
+            },
+            {
+              "Trhanov[DO]": "06:56"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "06:59"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "07:02"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "07:05"
+            }
+          ],
+          "Trip": 3,
+          "Trip time": 20,
+          "Waiting time": 5
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "07:26",
+          "Line": 400641,
+          "Start stop": "Klenčí p.Čerch.,,škola[DO]",
+          "Start time": "07:10",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "07:10"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "07:11"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "07:14"
+            },
+            {
+              "Trhanov[DO]": "07:16"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "07:17"
+            },
+            {
+              "Chodov,,Jednota[DO]": "07:19"
+            },
+            {
+              "Chodov[DO]": "07:20"
+            },
+            {
+              "Chodov,Podskalí[DO]": "07:22"
+            },
+            {
+              "Pec,,Brusírna[DO]": "07:23"
+            },
+            {
+              "Pec[DO]": "07:26"
+            }
+          ],
+          "Trip": 4,
+          "Trip time": 16,
+          "Waiting time": 3
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klenčí p.Čerch.,,škola[DO]",
+          "End time": "07:49",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "07:29",
+          "Stops": [
+            {
+              "Pec[DO]": "07:29"
+            },
+            {
+              "Pec,,Brusírna[DO]": "07:31"
+            },
+            {
+              "Chodov,Podskalí[DO]": "07:32"
+            },
+            {
+              "Chodov[DO]": "07:33"
+            },
+            {
+              "Chodov,,Jednota[DO]": "07:36"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "07:38"
+            },
+            {
+              "Trhanov[DO]": "07:40"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "07:43"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "07:46"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "07:49"
+            }
+          ],
+          "Trip": 5,
+          "Trip time": 20,
+          "Waiting time": 301
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "13:09",
+          "Line": 400641,
+          "Start stop": "Klenčí p.Čerch.,,škola[DO]",
+          "Start time": "12:50",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "12:50"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "12:51"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "12:54"
+            },
+            {
+              "Trhanov[DO]": "12:57"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "12:59"
+            },
+            {
+              "Chodov,,Jednota[DO]": "13:01"
+            },
+            {
+              "Chodov[DO]": "13:03"
+            },
+            {
+              "Chodov,Podskalí[DO]": "13:05"
+            },
+            {
+              "Pec,,Brusírna[DO]": "13:07"
+            },
+            {
+              "Pec[DO]": "13:09"
+            }
+          ],
+          "Trip": 8,
+          "Trip time": 19,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klenčí p.Čerch.,,škola[DO]",
+          "End time": "13:27",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "13:10",
+          "Stops": [
+            {
+              "Pec[DO]": "13:10"
+            },
+            {
+              "Pec,,Brusírna[DO]": "13:12"
+            },
+            {
+              "Chodov,Podskalí[DO]": "13:13"
+            },
+            {
+              "Chodov[DO]": "13:14"
+            },
+            {
+              "Chodov,,Jednota[DO]": "13:16"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "13:18"
+            },
+            {
+              "Trhanov[DO]": "13:19"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "13:21"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "13:24"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "13:27"
+            }
+          ],
+          "Trip": 9,
+          "Trip time": 17,
+          "Waiting time": 33
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "14:19",
+          "Line": 400641,
+          "Start stop": "Klenčí p.Čerch.,,škola[DO]",
+          "Start time": "14:00",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "14:00"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "14:01"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "14:04"
+            },
+            {
+              "Trhanov[DO]": "14:07"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "14:09"
+            },
+            {
+              "Chodov,,Jednota[DO]": "14:11"
+            },
+            {
+              "Chodov[DO]": "14:13"
+            },
+            {
+              "Chodov,Podskalí[DO]": "14:15"
+            },
+            {
+              "Pec,,Brusírna[DO]": "14:17"
+            },
+            {
+              "Pec[DO]": "14:19"
+            }
+          ],
+          "Trip": 10,
+          "Trip time": 19,
+          "Waiting time": 16
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Klenčí p.Čerch.,,škola[DO]",
+          "End time": "14:52",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "14:35",
+          "Stops": [
+            {
+              "Pec[DO]": "14:35"
+            },
+            {
+              "Pec,,Brusírna[DO]": "14:37"
+            },
+            {
+              "Chodov,Podskalí[DO]": "14:38"
+            },
+            {
+              "Chodov[DO]": "14:39"
+            },
+            {
+              "Chodov,,Jednota[DO]": "14:41"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "14:43"
+            },
+            {
+              "Trhanov[DO]": "14:44"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "14:46"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "14:49"
+            },
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "14:52"
+            }
+          ],
+          "Trip": 11,
+          "Trip time": 17,
+          "Waiting time": 13
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "15:24",
+          "Line": 400641,
+          "Start stop": "Klenčí p.Čerch.,,škola[DO]",
+          "Start time": "15:05",
+          "Stops": [
+            {
+              "Klenčí p.Čerch.,,škola[DO]": "15:05"
+            },
+            {
+              "Klenčí p.Čerch.,,žel.zast.[DO]": "15:06"
+            },
+            {
+              "Trhanov,Nový Hamr[DO]": "15:09"
+            },
+            {
+              "Trhanov[DO]": "15:12"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "15:14"
+            },
+            {
+              "Chodov,,Jednota[DO]": "15:16"
+            },
+            {
+              "Chodov[DO]": "15:18"
+            },
+            {
+              "Chodov,Podskalí[DO]": "15:20"
+            },
+            {
+              "Pec,,Brusírna[DO]": "15:22"
+            },
+            {
+              "Pec[DO]": "15:24"
+            }
+          ],
+          "Trip": 12,
+          "Trip time": 19,
+          "Waiting time": 21
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Trhanov[DO]",
+          "End time": "15:55",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "15:45",
+          "Stops": [
+            {
+              "Pec[DO]": "15:45"
+            },
+            {
+              "Pec,,Brusírna[DO]": "15:47"
+            },
+            {
+              "Chodov,Podskalí[DO]": "15:48"
+            },
+            {
+              "Chodov[DO]": "15:49"
+            },
+            {
+              "Chodov,,Jednota[DO]": "15:51"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "15:53"
+            },
+            {
+              "Trhanov[DO]": "15:55"
+            }
+          ],
+          "Trip": 13,
+          "Trip time": 10,
+          "Waiting time": 14
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Pec[DO]",
+          "End time": "16:20",
+          "Line": 400641,
+          "Start stop": "Trhanov[DO]",
+          "Start time": "16:09",
+          "Stops": [
+            {
+              "Trhanov[DO]": "16:09"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "16:10"
+            },
+            {
+              "Chodov,,Jednota[DO]": "16:12"
+            },
+            {
+              "Chodov[DO]": "16:14"
+            },
+            {
+              "Chodov,Podskalí[DO]": "16:16"
+            },
+            {
+              "Pec,,Brusírna[DO]": "16:18"
+            },
+            {
+              "Pec[DO]": "16:20"
+            }
+          ],
+          "Trip": 14,
+          "Trip time": 11,
+          "Waiting time": 25
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Trhanov[DO]",
+          "End time": "16:55",
+          "Line": 400641,
+          "Start stop": "Pec[DO]",
+          "Start time": "16:45",
+          "Stops": [
+            {
+              "Pec[DO]": "16:45"
+            },
+            {
+              "Pec,,Brusírna[DO]": "16:47"
+            },
+            {
+              "Chodov,Podskalí[DO]": "16:48"
+            },
+            {
+              "Chodov[DO]": "16:49"
+            },
+            {
+              "Chodov,,Jednota[DO]": "16:51"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "16:53"
+            },
+            {
+              "Trhanov[DO]": "16:55"
+            }
+          ],
+          "Trip": 15,
+          "Trip time": 10,
+          "Waiting time": 13
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 12,
+          "End stop": "Pec[DO]",
+          "End time": "17:19",
+          "Line": 400641,
+          "Start stop": "Trhanov[DO]",
+          "Start time": "17:08",
+          "Stops": [
+            {
+              "Trhanov[DO]": "17:08"
+            },
+            {
+              "Trhanov,,žel.zast.[DO]": "17:09"
+            },
+            {
+              "Chodov,,Jednota[DO]": "17:11"
+            },
+            {
+              "Chodov[DO]": "17:13"
+            },
+            {
+              "Chodov,Podskalí[DO]": "17:15"
+            },
+            {
+              "Pec,,Brusírna[DO]": "17:17"
+            },
+            {
+              "Pec[DO]": "17:19"
+            }
+          ],
+          "Trip": 16,
+          "Trip time": 11,
+          "Waiting time": 39
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 14,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "18:15",
+          "Line": 405611,
+          "Start stop": "Domažlice,,nová nem.[DO]",
+          "Start time": "18:10",
+          "Stops": [
+            {
+              "Domažlice,,nová nem.[DO]": "18:10"
+            },
+            {
+              "Domažlice,,Kozinova[DO]": "18:12"
+            },
+            {
+              "Domažlice,,u nem.[DO]": "18:14"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "18:15"
+            }
+          ],
+          "Trip": 31,
+          "Trip time": 5,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "18:43",
+          "Line": 400631,
+          "Start stop": "Horšovský Týn[DO]",
+          "Start time": "18:30",
+          "Stops": [
+            {
+              "Horšovský Týn[DO]": "18:30"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "18:34"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "18:36"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "18:40"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "18:43"
+            }
+          ],
+          "Trip": 44,
+          "Trip time": 13,
+          "Waiting time": 2
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Kdyně,,aut.st.[DO]",
+          "End time": "19:05",
+          "Line": 400821,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "18:45",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "18:45"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "18:46"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "18:49"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "18:50"
+            },
+            {
+              "Domažlice,,bytové družstvo[DO]": "18:52"
+            },
+            {
+              "Zahořany,,Na Kočárku[DO]": "18:53"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "18:54"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "18:55"
+            },
+            {
+              "Kout na Šumavě[DO]": "18:57"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "18:58"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "18:59"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "19:01"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "19:03"
+            },
+            {
+              "Kdyně,,aut.st.[DO]": "19:05"
+            }
+          ],
+          "Trip": 41,
+          "Trip time": 20,
+          "Waiting time": 30
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,žel.st.[DO]",
+          "End time": "19:52",
+          "Line": 400821,
+          "Start stop": "Kdyně,,aut.st.[DO]",
+          "Start time": "19:35",
+          "Stops": [
+            {
+              "Kdyně,,aut.st.[DO]": "19:35"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "19:37"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "19:39"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "19:41"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "19:43"
+            },
+            {
+              "Kout na Šumavě[DO]": "19:44"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "19:46"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "19:47"
+            },
+            {
+              "Zahořany,,Na Kočárku[DO]": "19:48"
+            },
+            {
+              "Domažlice,,bytové družstvo[DO]": "19:49"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "19:50"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "19:52"
+            }
+          ],
+          "Trip": 48,
+          "Trip time": 17,
+          "Waiting time": 18
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Horšovský Týn[DO]",
+          "End time": "20:26",
+          "Line": 400631,
+          "Start stop": "Domažlice,,žel.st.[DO]",
+          "Start time": "20:10",
+          "Stops": [
+            {
+              "Domažlice,,žel.st.[DO]": "20:10"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "20:13"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "20:15"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "20:19"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "20:21"
+            },
+            {
+              "Horšovský Týn[DO]": "20:26"
+            }
+          ],
+          "Trip": 45,
+          "Trip time": 16,
+          "Waiting time": 44
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "21:23",
+          "Line": 400631,
+          "Start stop": "Horšovský Týn[DO]",
+          "Start time": "21:10",
+          "Stops": [
+            {
+              "Horšovský Týn[DO]": "21:10"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "21:14"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "21:16"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "21:20"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "21:23"
+            }
+          ],
+          "Trip": 48,
+          "Trip time": 13,
+          "Waiting time": 7
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Kdyně,,aut.st.[DO]",
+          "End time": "21:57",
+          "Line": 400821,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "21:30",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "21:30"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "21:31"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "21:34"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "21:35"
+            },
+            {
+              "Domažlice,,u čist.st.[DO]": "21:37"
+            },
+            {
+              "Zahořany,Bořice,I[DO]": "21:38"
+            },
+            {
+              "Zahořany,Bořice,II[DO]": "21:39"
+            },
+            {
+              "Zahořany,Sedlice,rozc.0.8[DO]": "21:41"
+            },
+            {
+              "Zahořany[DO]": "21:42"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "21:44"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "21:45"
+            },
+            {
+              "Kout na Šumavě[DO]": "21:47"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "21:48"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "21:49"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "21:51"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "21:53"
+            },
+            {
+              "Kdyně,,aut.st.[DO]": "21:57"
+            }
+          ],
+          "Trip": 45,
+          "Trip time": 27,
+          "Waiting time": 8
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Domažlice,,Poděbradova[DO]",
+          "End time": "22:25",
+          "Line": 400821,
+          "Start stop": "Kdyně,,aut.st.[DO]",
+          "Start time": "22:05",
+          "Stops": [
+            {
+              "Kdyně,,aut.st.[DO]": "22:05"
+            },
+            {
+              "Kdyně,,sídliště[DO]": "22:07"
+            },
+            {
+              "Kdyně,,Na Kobyle[DO]": "22:09"
+            },
+            {
+              "Kout na Šumavě,,žel.st.[DO]": "22:11"
+            },
+            {
+              "Kout na Šumavě,,sídliště[DO]": "22:13"
+            },
+            {
+              "Kout na Šumavě[DO]": "22:14"
+            },
+            {
+              "Kout na Šumavě,Nový Dvůr,rozc.0.5[DO]": "22:16"
+            },
+            {
+              "Spáňov,,rozc.0.5[DO]": "22:17"
+            },
+            {
+              "Zahořany,,Na Kočárku[DO]": "22:18"
+            },
+            {
+              "Domažlice,,bytové družstvo[DO]": "22:19"
+            },
+            {
+              "Domažlice,,Hodeta[DO]": "22:20"
+            },
+            {
+              "Domažlice,,žel.st.[DO]": "22:22"
+            },
+            {
+              "Domažlice,,u pohřební služby[DO]": "22:23"
+            },
+            {
+              "Domažlice,,Poděbradova[DO]": "22:25"
+            }
+          ],
+          "Trip": 52,
+          "Trip time": 20,
+          "Waiting time": 1
+        },
+        {
+          "Day": "2020-01-13",
+          "Deadhead time": 0,
+          "End stop": "Stod,,žel.st.[PJ]",
+          "End time": "23:07",
+          "Line": 400631,
+          "Start stop": "Domažlice,,Poděbradova[DO]",
+          "Start time": "22:26",
+          "Stops": [
+            {
+              "Domažlice,,Poděbradova[DO]": "22:26"
+            },
+            {
+              "Domažlice,,sídliště[DO]": "22:28"
+            },
+            {
+              "Meclov,Třebnice,rozc.0.6[DO]": "22:32"
+            },
+            {
+              "Meclov,Jeníkovice,rozc.0.5[DO]": "22:34"
+            },
+            {
+              "Horšovský Týn[DO]": "22:39"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "22:42"
+            },
+            {
+              "Křenovy[DO]": "22:45"
+            },
+            {
+              "Staňkov,Vránov[DO]": "22:47"
+            },
+            {
+              "Staňkov,,nám.[DO]": "22:51"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "22:54"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "22:57"
+            },
+            {
+              "Stod[PJ]": "23:03"
+            },
+            {
+              "Stod,,rozc.k žel.st.0.5[PJ]": "23:04"
+            },
+            {
+              "Stod,,žel.st.[PJ]": "23:07"
+            }
+          ],
+          "Trip": 49,
+          "Trip time": 41,
+          "Waiting time": 13
+        },
+        {
+          "Day": "2020-01-13",
+          "End stop": "Horšovský Týn[DO]",
+          "End time": "23:48",
+          "Line": 400631,
+          "Start stop": "Stod,,žel.st.[PJ]",
+          "Start time": "23:20",
+          "Stops": [
+            {
+              "Stod,,žel.st.[PJ]": "23:20"
+            },
+            {
+              "Stod,,rozc.k žel.st.0.5[PJ]": "23:21"
+            },
+            {
+              "Stod[PJ]": "23:22"
+            },
+            {
+              "Holýšov,,u Obuvi[DO]": "23:29"
+            },
+            {
+              "Staňkov,Ohůčov[DO]": "23:33"
+            },
+            {
+              "Staňkov,,nám.[DO]": "23:36"
+            },
+            {
+              "Staňkov,Vránov[DO]": "23:39"
+            },
+            {
+              "Křenovy[DO]": "23:42"
+            },
+            {
+              "Horšovský Týn,Semošice[DO]": "23:45"
+            },
+            {
+              "Horšovský Týn[DO]": "23:48"
+            }
+          ],
+          "Trip": 52,
+          "Trip time": 28
+        }
+      ],
+      "Turn-around": {
+        "End stop": "Klenčí p.Čerch.,,žel.zast.[DO]",
+        "Reserve time": 354,
+        "Return time": 20,
+        "Start stop": "Horšovský Týn[DO]"
+      }
+    }
+  ],
+  "Distance calculated using": "map",
+  "First trip": "2020-01-13 03:50",
+  "Global deadhead time": 9689,
+  "Global trip count": 2701,
+  "Global trip time": 82338,
+  "Global waiting time": 83929,
+  "JDF batch name": "PlzenskyKraj_Arriva_804",
+  "Last trip": "2020-01-14 00:10",
+  "Scheduling method": "circular",
+  "iterations": 300,
+  "multiplications": 5,
+  "samples": 30
+}

@@ -1,0 +1,23 @@
+{% set pages = [
+{'title': 'Main', 'url': '/','text': 'Home'},
+{'title': 'Load', 'url': '/upload/main','text': 'Upload JDF'},
+{'title': 'Stops', 'url': '/stops', 'text': 'List of stops'},
+{'title': 'Query', 'url': '/query/main', 'text': 'Query trips'},
+{'title': 'Export', 'url': '/timetables/export/main', 'text': 'Export timetables to XLSX'},
+{'title': 'Import', 'url': '/timetables/import/main', 'text': 'Import timetables in XLSX'},
+{'title': 'Scheduling', 'url': '/schedules/form', 'text': 'Schedule buses'},
+{'title': 'Visualizing', 'url': '/visualize', 'text' : 'Visualize schedules'},
+] %}
+<nav>
+    <ul>
+        {% for page in pages %}
+        <li>
+            {% if page.title == title %}
+            <strong>{{ page.text }}</strong>
+            {% else %}
+            <a href="{{ page.url }}">{{ page.text }}</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

@@ -1,0 +1,95 @@
+{% include 'header.html' %}
+<body>
+{% set title='Query' %}
+{% include 'navigation.html' %}
+<h1>Trip querying</h1>
+{% include 'inline_errors.html' %}
+<form action="/query/result" method="get">
+    <h2>Source JDF</h2>
+    <select name="JDF_folder" title="JDF batch">
+        {% for folder in jdfFolderNames %}
+        <option value="{{ folder }}">{{ folder }}</option>
+        {% endfor %}
+    </select>
+    <h2>Options</h2>
+
+    <h3>Trips</h3>
+    <table>
+        <tr>
+            <td>
+                <label for="tripsShow">Show trips</label>
+            </td>
+            <td>
+                <input type="checkbox" name="tripsShow" id="tripsShow" checked>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tripsFrom">From</label>
+            </td>
+            <td>
+                <label for="tripsTo">To</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="date" name="tripsFrom" id="tripsFrom"></td>
+            <td><input type="date" name="tripsTo" id="tripsTo"></td>
+        </tr>
+    </table>
+
+
+    <h3>Departures and arrivals</h3>
+    <table>
+        <tr>
+            <td><label for="departures-stop">Departures from stop</label></td>
+            <td><input type="text" name="departures" id="departures-stop" list="stops"></td>
+            <td rowspan="2"><button type="button" title="Swap stops" onclick="swapStops()">
+                <i class="icon-exchange-top"></i>
+            </button></td>
+            <td><label for="departuresWhen">At</label></td>
+            <td><input type="datetime-local" name="departuresWhen" id="departuresWhen"></td>
+            <td rowspan="2"><button type="button" title="Swap times" onclick="swapTimes()">
+                <i class="icon-exchange-top"></i>
+            </button></td>
+        </tr>
+        <tr>
+            <td><label for="arrivals-stop">Arrivals to stop</label></td>
+            <td><input type="text" name="arrivals" id="arrivals-stop" list="stops"></td>
+            <td><label for="arrivalsWhen">At</label></td>
+            <td><input type="datetime-local" name="arrivalsWhen" id="arrivalsWhen"></td>
+        </tr>
+        <script>
+            // assume we have swap button, which would swap stop names
+            function swapStops() {
+                var departures = document.getElementById("departures-stop").value;
+                var arrivals = document.getElementById("arrivals-stop").value;
+                document.getElementById("departures-stop").value = arrivals;
+                document.getElementById("arrivals-stop").value = departures;
+            }
+            // and then swap the time
+            function swapTimes() {
+                var departures = document.getElementById("departuresWhen").value;
+                var arrivals = document.getElementById("arrivalsWhen").value;
+                console.log(departures);
+                console.log(arrivals);
+                document.getElementById("departuresWhen").value = arrivals;
+                document.getElementById("arrivalsWhen").value = departures;
+            }
+        </script>
+        <datalist id="stops">
+            {% for stop in stopNames %}
+            <option value="{{ stop }}">
+            {% endfor %}
+        </datalist>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" class="showProcessing">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+{% include 'footer.html' %}
+
+

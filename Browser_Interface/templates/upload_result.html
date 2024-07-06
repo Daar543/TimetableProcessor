@@ -1,0 +1,33 @@
+{% include 'header.html' %}
+
+<body>
+{% include 'navigation.html' %}
+<h1>Uploading of JDF</h1>
+{% include 'inline_errors.html' %}
+
+<h2>Upload results</h2>
+<div>
+    {% if errors %}
+    <h3>Errors</h3>
+    <ul>
+        {% for error in errors %}
+        <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% for report in reports %}
+    <div style="color:{{report.color}}">
+        <h3>{{ report.text }}</h3>
+        <ul>
+            {% for name in report.names %}
+            <li >{{ name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+
+</div>
+<a href="/upload/main">Upload another timetable</a>
+
+</body>
+{% include 'footer.html' %}

@@ -1,0 +1,258 @@
+{% include 'header.html' %}
+<body>
+{% set title='Stops' %}
+{% include 'navigation.html' %}
+<h1>List of stops with their locations</h1>
+{% include 'inline_errors.html' %}
+<div class="container">
+    <div class="right-container">
+        <div class="top-container">
+            <div class="map-container">
+                {% include "map_side.html" %}
+            </div>
+            <!-- Below the map, include a container displaying coordinates of user's hover -->
+            <div class="current-coordinates" style="text-align:center">
+                <p>Current coordinates: <span id="current-coordinates"></span></p>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="import-container" style="border-width:5px; border-color:black; border-style:solid;">
+                <form action="/stops/import/" method="post" enctype="multipart/form-data" id="import-form">
+                    <div>
+                        <label for="import_file">Import searched stops</label>
+                        <input type="file" name="import_file" id="import_file">
+                    </div>
+                    <div>
+                        <label for="overwrite_import">Overwrite old stops</label>
+                        <input type="checkbox" name="overwrite_import" id="overwrite_import" checked>
+                    </div>
+                    <button id="import-button">Import stops</button>
+                </form>
+            </div>
+            <!-- Submit button above the rows so it does not get pushed down -->
+            <div class="submit-container">
+                <form action="/stops/edit" method="post" id="submit-form">
+                    <button id="submit-button">Replace stops</button>
+                </form>
+            </div>
+            <!-- Container for displaying multiple coordinates, growing by script -->
+            <div class="coordinates-container">
+                <table id="coordinates-table" class="cell-border compact stripe">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan=4>Stop name</th>
+                        <th>Latitude</th>
+                        <th>Longitude</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody id="new-stops-tbody">
+                    <tr id="new-stops-row-template" style="visibility:collapse">
+                        <td class="rowNo">
+                            <span>0</span>
+                        </td>
+                        <td>
+                            <input type="text" maxlength="64" name="city_name" placeholder="City name (mandatory)">
+                        </td>
+                        <td>
+                            <input type="text" maxlength="64" name="city_part" placeholder="City part">
+                        </td>
+                        <td>
+                            <input type="text" maxlength="64" name="object" placeholder="Object">
+                        </td>
+                        <td>
+                            <input type="text" maxlength="3" name="region" placeholder="Region (optional)">
+                        </td>
+                        <td>
+                            <input type="number" step="0.00001" name="stop_latitude" placeholder="Latitude">
+                        </td>
+                        <td>
+                            <input type="number" step="0.00001" name="stop_longitude" placeholder="Longitude">
+                        </td>
+                        <td>
+                            <button disabled>Remove</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="left-container">
+
+        <table id="saved-stops-table" class="cell-border compact stripe">
+            <thead>
+            <tr>
+                <th>Stop name</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th></th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for stop in stops %}
+            <tr id="stoprow_{{stop.temporary_id}}">
+                <td>{{ stop.name }}</td>
+                <td>{{ stop.latitude }}</td>
+                <td>{{ stop.longitude }}</td>
+                <td>
+                    <button onclick="centerMap({{ stop.latitude }},{{ stop.longitude }})">Center Map</button>
+                </td>
+                <td>
+                    <input type="checkbox" name="delete" value="{{ stop.temporary_id }}">
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    const stops = {{stops | tojson }}
+    let markersLayer = L.layerGroup().addTo(map);
+    let index = 0;
+    stops.forEach(stop => {
+        let marker = L.marker([stop.latitude, stop.longitude]).addTo(markersLayer);
+        marker.bindPopup(stop.name);
+        ++index;
+        marker.on('click', function () {
+            centerMap(stop.latitude, stop.longitude);
+            const row = document.getElementById("stoprow_" + stop.temporary_id.toString());
+            row.scrollIntoView({behavior: "smooth"});
+        });
+        marker.on('mouseover', function (e) {
+            this.openPopup();
+        });
+        marker.on('mouseout', function (e) {
+            this.closePopup();
+        });
+        let row = document.getElementById("stoprow_"+stop.temporary_id.toString());
+        let deleteCheckbox = row.querySelector("input[name='delete']");
+        deleteCheckbox.addEventListener("change", function (e) {
+            if (deleteCheckbox.checked) {
+                marker._icon.classList.add("blue-to-red");
+            } else {
+                marker._icon.classList.remove("blue-to-red");
+            }
+        });
+    });
+
+
+    //map.invalidateSize(); // Make the map fit window after rescale
+    centerMap({{initialLatitude}},{{initialLongitude}})
+
+    function hoverLocation(e) {
+        document.getElementById("current-coordinates").innerHTML =
+            e.latlng.lat.toFixed(6).toString() + " " + e.latlng.lng.toFixed(6).toString();
+    }
+
+    map.on("mousemove", hoverLocation);
+
+    function useLocation(e) {
+        appendStopRow(e.latlng.lat, e.latlng.lng);
+    }
+
+    let rowNo = 0;
+
+    function appendStopRow(lat, lng) {
+        const tbody = document.getElementById("new-stops-tbody");
+        const template = document.getElementById("new-stops-row-template");
+        const row = template.cloneNode(true);
+        const btn = row.querySelector("button");
+        ++rowNo;
+        row.style.visibility = "visible";
+        // clear inputs
+        row.querySelectorAll("input").forEach(input => input.value = "");
+        // set rowno and coordinates
+        row.querySelector(".rowNo span").innerHTML = rowNo.toString();
+        row.querySelector("input[name='stop_latitude']").value = lat.toFixed(6);
+        row.querySelector("input[name='stop_longitude']").value = lng.toFixed(6);
+
+        // add green marker
+        let marker = L.marker([lat, lng]).addTo(markersLayer);
+        marker._icon.classList.add("blue-to-green");
+        marker.bindPopup(rowNo.toString());
+        marker.on('mouseover', function (e) {
+            this.openPopup();
+        });
+        marker.on('mouseout', function (e) {
+            this.closePopup();
+        });
+        marker.on('click', function (e) {
+            row.scrollIntoView({behavior: "smooth"});
+        });
+
+        // enable remove button
+        btn.disabled = false;
+        btn.onclick = function () {
+            marker.remove();
+            row.remove();
+        };
+        tbody.appendChild(row);
+    }
+
+    map.on("click", useLocation);
+
+    function submitAll(e) {
+        e.preventDefault();
+        // Submits two arrays: for adding, returns all stop stats, and for deleting, returns only ids
+        const savedRows = document.getElementById("saved-stops-table").querySelectorAll("tbody tr");
+        let deleteIds = [];
+        savedRows.forEach(row => {
+            const checkbox = row.querySelector("input[name='delete']");
+            if (checkbox.checked) {
+                deleteIds.push(checkbox.value);
+            }
+        });
+        console.log(deleteIds);
+        let addStops = [];
+        const newRows = document.getElementById("new-stops-tbody").querySelectorAll("tr");
+        newRows.forEach(row => {
+            const cityName = row.querySelector("input[name='city_name']").value;
+            if (!cityName) return;
+            const partName = row.querySelector("input[name='city_part']").value;
+            const objectName = row.querySelector("input[name='object']").value;
+            const region = row.querySelector("input[name='region']").value;
+            const lat = row.querySelector("input[name='stop_latitude']").value;
+            const lng = row.querySelector("input[name='stop_longitude']").value;
+            addStops.push({
+                "city_name": cityName,
+                "city_part": partName,
+                "object_name": objectName,
+                "region": region,
+                "latitude": lat,
+                "longitude": lng
+            });
+        });
+        console.log(addStops);
+
+        const form = document.getElementById("submit-form");
+
+        const addInput = document.createElement("input");
+        addInput.type = "hidden";
+        addInput.name = "add";
+        addInput.value = JSON.stringify(addStops);
+        form.appendChild(addInput);
+        const deleteInput = document.createElement("input");
+        deleteInput.type = "hidden";
+        deleteInput.name = "delete";
+        deleteInput.value = JSON.stringify(deleteIds);
+        form.appendChild(deleteInput);
+
+        form.submit();
+
+    };
+    const submitButton = document.getElementById("submit-button");
+    submitButton.onclick = submitAll;
+
+
+</script>
+
+
+</body>
+{% include 'footer.html' %}

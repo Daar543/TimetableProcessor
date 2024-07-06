@@ -1,0 +1,59 @@
+{% include 'header.html' %}
+<body>
+{% include 'navigation.html' %}
+<h1>Preview the scheduling</h1>
+{% include 'inline_errors.html' %}
+<div id="schedule-preview">
+    <h2>Scheduling parameters</h2>
+    <form action="/schedules/submit" method="get">
+        <ul>
+            <li>Trips:{{tripc}}</li>
+            <li>Edges:{{edgec}}</li>
+            <li>First trip: {{firstTrip.StartTime}} {{firstTrip.StartStop}} &rarr; {{firstTrip.EndTime}}
+                {{firstTrip.EndStop}}
+            </li>
+            <li>Last trip: {{lastTrip.StartTime}} {{lastTrip.StartStop}} &rarr; {{lastTrip.EndTime}}
+                {{lastTrip.EndStop}}
+            </li>
+            <li><a href="/download/distance-matrix" target="_blank" rel="noopener noreferrer">Download travel time matrix</a></li>
+
+
+            <li>Scheduling method:
+                {% if schedulingMethod=='default' %}
+                Default
+                {% elif schedulingMethod=='depot' %}
+                With a depot
+                {% elif schedulingMethod=='circular' %}
+                Circular trips (approximate)
+                {% else %}
+                {{schedulingMethod}}
+                {% endif %}
+
+                {% if schedulingMethod!='default' %}
+                <ul>
+                    {% for key in schedulingParams %}
+                    {% if key!='cached'%}
+                    <li>{{key}}: {{schedulingParams[key]}}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% if schedulingParams.get('cached')=='True' %}
+            <li>Using cached data if available</li>
+            {% endif %}
+        </ul>
+        <div>
+            <input type="hidden" name="JDF_name" placeholder="JDF name" value="{{jdfName}}">
+            <input type="hidden" name="startdt" id="startdt" value="{{dtFrom.strftime('%Y-%m-%d_%H%M')}}">
+            <input type="hidden" name="enddt" id="enddt" value="{{dtTo.strftime('%Y-%m-%d_%H%M')}}">
+            <input type="hidden" name="distanceMethod" id="distanceMethod" value="{{distanceMethod}}">
+            <input type="hidden" name="schedulingMethod" id="schedulingMethod" value="{{schedulingMethod}}">
+            <input type="hidden" name="schedulingParams" id="schedulingParams" value="{{schedulingParamsJson}}">
+        </div>
+        <br>
+        <input type="submit" value="Submit" class="showProcessing">
+    </form>
+</div>
+</body>
+{% include 'footer.html' %}

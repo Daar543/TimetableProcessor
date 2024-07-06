@@ -1,0 +1,20 @@
+<!-- Include Leaflet CSS and JavaScript files -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<div id="map" style="height:400px;"></div>
+
+<script>
+    let map = L.map('map');
+    map.setZoom({{initialZoom or 13}});
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Center the map on the user's location, while preserving the zoom level
+    function centerMap(lat, lng) {
+        map.setView([lat, lng], map.getZoom());
+    }
+
+
+</script>

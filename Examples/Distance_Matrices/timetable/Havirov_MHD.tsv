@@ -1,0 +1,39 @@
+Stop names	Albrechtice,,sídliště[KA]	Albrechtice,,žel.st.[KA]	Havířov,Bludovice,pod kopcem[KA]	Havířov,Bludovice,polská škola[KA]	Havířov,Bludovice,točna Datyňská[KA]	Havířov,Dolní Datyně,točna J.Kotase[KA]	Havířov,Město,Nám.Republiky[KA]	Havířov,Město,nemocnice[KA]	Havířov,Město,obchodní dům[KA]	Havířov,Město,žel.st.[KA]	Havířov,Podlesí,Okrajová u garáží[KA]	Havířov,Podlesí,Těšínská[KA]	Havířov,Podlesí,aut.nádr.[KA]	Havířov,Podlesí,lesopark[KA]	Havířov,Pr.Suchá,žel.st.[KA]	Havířov,Šumbark,M.Pujmanové[KA]	Havířov,Šumbark,Obránců míru[KA]	Havířov,Šumbark,točna 2.etapa[KA]	Havířov,Šumbark,točna Lidická[KA]	Havířov,Šumbark,točna Petřvaldská[KA]	Havířov,Šumbark,Školní[KA]	Havířov,Životice,točna Pacalůvka[KA]	Horní Bludovice,,Adámek[KA]	Horní Bludovice,,Záguří[KA]	Horní Suchá,,Pašůvka[KA]	Horní Suchá,,konečná[KA]	Petřvald,,Březiny[KA]	Petřvald,,Na kopci[KA]	Petřvald,,střed[KA]	Petřvald,,vodárna[KA]	Stonava,,sídl.Nový svět[KA]	Těrlicko,,Zelené Město U Goduly[KA]	Těrlicko,,obecní úřad[KA]	Těrlicko,Hradiště,U Stonávky[KA]	Šenov,,Lapačka[KA]	Šenov,,bytovky[KA]	Šenov,,náměstí[KA]	Šenov,,ČSAD[KA]
+Albrechtice,,sídliště[KA]	0	3	9	13	17	20	14	15	14	18	11	10	11	13	21	22	20	24	24	22	20	3	24	13	23	12	32	27	29	25	5	19	12	18	23	20	27	22
+Albrechtice,,žel.st.[KA]	3	0	12	16	20	23	17	18	17	21	14	13	14	16	24	25	23	27	27	25	23	6	27	16	26	15	35	30	32	28	2	22	15	21	26	23	30	25
+Havířov,Bludovice,pod kopcem[KA]	9	12	0	4	8	11	5	6	5	9	2	1	2	4	12	13	11	15	15	13	11	6	15	4	14	15	23	18	20	16	14	13	6	12	14	11	18	13
+Havířov,Bludovice,polská škola[KA]	13	16	4	0	4	7	7	8	7	11	4	3	3	6	14	15	13	17	17	15	13	10	11	8	16	19	25	20	22	18	18	17	10	16	10	7	14	15
+Havířov,Bludovice,točna Datyňská[KA]	17	20	8	4	0	3	11	12	11	15	8	7	7	10	18	19	17	21	21	19	17	14	7	12	20	23	29	24	26	22	22	21	14	20	6	3	10	19
+Havířov,Dolní Datyně,točna J.Kotase[KA]	20	23	11	7	3	0	14	15	14	18	11	10	10	13	21	21	19	24	23	22	20	17	4	15	23	26	32	27	29	25	25	24	17	23	3	6	7	16
+Havířov,Město,Nám.Republiky[KA]	14	17	5	7	11	14	0	2	3	4	5	4	5	7	8	8	6	11	10	8	6	11	18	9	10	20	18	13	15	11	19	18	11	17	17	14	17	8
+Havířov,Město,nemocnice[KA]	15	18	6	8	12	15	2	0	1	6	6	5	6	8	6	10	8	9	12	10	8	12	19	10	8	21	20	15	17	13	20	19	12	18	18	15	19	10
+Havířov,Město,obchodní dům[KA]	14	17	5	7	11	14	3	1	0	5	5	4	5	7	7	9	7	10	11	9	7	11	18	9	9	20	19	14	16	12	19	18	11	17	17	14	18	9
+Havířov,Město,žel.st.[KA]	18	21	9	11	15	18	4	6	5	0	9	8	9	11	12	4	2	7	6	4	2	15	22	13	14	24	14	9	11	7	23	22	15	21	17	18	13	4
+Havířov,Podlesí,Okrajová u garáží[KA]	11	14	2	4	8	11	5	6	5	9	0	1	1	2	12	13	11	15	15	13	11	8	15	6	14	17	23	18	20	16	16	15	8	14	14	11	18	13
+Havířov,Podlesí,Těšínská[KA]	10	13	1	3	7	10	4	5	4	8	1	0	1	3	11	12	10	14	14	12	10	7	14	5	13	16	22	17	19	15	15	14	7	13	13	10	17	12
+Havířov,Podlesí,aut.nádr.[KA]	11	14	2	3	7	10	5	6	5	9	1	1	0	3	12	13	11	15	15	13	11	8	14	6	14	17	23	18	20	16	16	15	8	14	13	10	17	13
+Havířov,Podlesí,lesopark[KA]	13	16	4	6	10	13	7	8	7	11	2	3	3	0	14	15	13	17	17	15	13	10	17	8	16	19	25	20	22	18	18	17	10	16	16	13	20	15
+Havířov,Pr.Suchá,žel.st.[KA]	21	24	12	14	18	21	8	6	7	12	12	11	12	14	0	16	14	13	17	16	14	18	25	16	2	27	26	21	23	19	26	25	18	24	24	21	25	16
+Havířov,Šumbark,M.Pujmanové[KA]	22	25	13	15	19	21	8	10	9	4	13	12	13	15	16	0	2	6	2	5	3	19	25	17	18	28	15	10	12	8	27	26	19	25	18	22	14	5
+Havířov,Šumbark,Obránců míru[KA]	20	23	11	13	17	19	6	8	7	2	11	10	11	13	14	2	0	6	4	3	1	17	23	15	16	26	13	8	10	6	25	24	17	23	16	20	12	3
+Havířov,Šumbark,točna 2.etapa[KA]	24	27	15	17	21	24	11	9	10	7	15	14	15	17	13	6	6	0	4	3	5	21	28	19	15	30	13	8	10	6	29	28	21	27	22	24	18	9
+Havířov,Šumbark,točna Lidická[KA]	24	27	15	17	21	23	10	12	11	6	15	14	15	17	17	2	4	4	0	4	5	21	27	19	19	30	14	9	11	7	29	28	21	27	20	24	16	7
+Havířov,Šumbark,točna Petřvaldská[KA]	22	25	13	15	19	22	8	10	9	4	13	12	13	15	16	5	3	3	4	0	2	19	26	17	18	28	10	5	7	3	27	26	19	25	19	22	15	6
+Havířov,Šumbark,Školní[KA]	20	23	11	13	17	20	6	8	7	2	11	10	11	13	14	3	1	5	5	2	0	17	24	15	16	26	12	7	9	5	25	24	17	23	17	20	13	4
+Havířov,Životice,točna Pacalůvka[KA]	3	6	6	10	14	17	11	12	11	15	8	7	8	10	18	19	17	21	21	19	17	0	21	10	20	9	29	24	26	22	8	16	9	15	20	17	24	19
+Horní Bludovice,,Adámek[KA]	24	27	15	11	7	4	18	19	18	22	15	14	14	17	25	25	23	28	27	26	24	21	0	15	27	30	36	31	33	29	29	25	18	24	7	10	11	20
+Horní Bludovice,,Záguří[KA]	13	16	4	8	12	15	9	10	9	13	6	5	6	8	16	17	15	19	19	17	15	10	15	0	18	19	27	22	24	20	18	10	3	9	18	15	22	17
+Horní Suchá,,Pašůvka[KA]	23	26	14	16	20	23	10	8	9	14	14	13	14	16	2	18	16	15	19	18	16	20	27	18	0	29	28	23	25	21	28	27	20	26	26	23	27	18
+Horní Suchá,,konečná[KA]	12	15	15	19	23	26	20	21	20	24	17	16	17	19	27	28	26	30	30	28	26	9	30	19	29	0	38	33	35	31	17	25	18	24	29	26	33	28
+Petřvald,,Březiny[KA]	32	35	23	25	29	32	18	20	19	14	23	22	23	25	26	15	13	13	14	10	12	29	36	27	28	38	0	5	3	7	37	36	29	35	29	32	25	16
+Petřvald,,Na kopci[KA]	27	30	18	20	24	27	13	15	14	9	18	17	18	20	21	10	8	8	9	5	7	24	31	22	23	33	5	0	2	2	32	31	24	30	24	27	20	11
+Petřvald,,střed[KA]	29	32	20	22	26	29	15	17	16	11	20	19	20	22	23	12	10	10	11	7	9	26	33	24	25	35	3	2	0	4	34	33	26	32	26	29	22	13
+Petřvald,,vodárna[KA]	25	28	16	18	22	25	11	13	12	7	16	15	16	18	19	8	6	6	7	3	5	22	29	20	21	31	7	2	4	0	30	29	22	28	22	25	18	9
+Stonava,,sídl.Nový svět[KA]	5	2	14	18	22	25	19	20	19	23	16	15	16	18	26	27	25	29	29	27	25	8	29	18	28	17	37	32	34	30	0	24	17	23	28	25	32	27
+Těrlicko,,Zelené Město U Goduly[KA]	19	22	13	17	21	24	18	19	18	22	15	14	15	17	25	26	24	28	28	26	24	16	25	10	27	25	36	31	33	29	24	0	7	13	27	24	31	26
+Těrlicko,,obecní úřad[KA]	12	15	6	10	14	17	11	12	11	15	8	7	8	10	18	19	17	21	21	19	17	9	18	3	20	18	29	24	26	22	17	7	0	6	20	17	24	19
+Těrlicko,Hradiště,U Stonávky[KA]	18	21	12	16	20	23	17	18	17	21	14	13	14	16	24	25	23	27	27	25	23	15	24	9	26	24	35	30	32	28	23	13	6	0	26	23	30	25
+Šenov,,Lapačka[KA]	23	26	14	10	6	3	17	18	17	17	14	13	13	16	24	18	16	22	20	19	17	20	7	18	26	29	29	24	26	22	28	27	20	26	0	5	4	13
+Šenov,,bytovky[KA]	20	23	11	7	3	6	14	15	14	18	11	10	10	13	21	22	20	24	24	22	20	17	10	15	23	26	32	27	29	25	25	24	17	23	5	0	9	18
+Šenov,,náměstí[KA]	27	30	18	14	10	7	17	19	18	13	18	17	17	20	25	14	12	18	16	15	13	24	11	22	27	33	25	20	22	18	32	31	24	30	4	9	0	9
+Šenov,,ČSAD[KA]	22	25	13	15	19	16	8	10	9	4	13	12	13	15	16	5	3	9	7	6	4	19	20	17	18	28	16	11	13	9	27	26	19	25	13	18	9	0

@@ -1,0 +1,2626 @@
+[
+    {
+        "name": "Albrechtice,,nákupní středisko[KA]",
+        "info": {
+            "id": 9263315503,
+            "lat": 49.7916772,
+            "lon": 18.5279409,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Albrechtice, nákupní středisko",
+                "network": "ODIS",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Albrechtice,,střed[KA]",
+        "info": {
+            "id": 2321707384,
+            "lat": 49.7857105,
+            "lon": 18.5250867,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Albrechtice, střed",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Albrechtice,,sídliště[KA]",
+        "info": {
+            "id": 2321707357,
+            "lat": 49.7807288,
+            "lon": 18.5236169,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Albrechtice,sídliště"
+            }
+        }
+    },
+    {
+        "name": "Albrechtice,,u hráze[KA]",
+        "info": {
+            "id": 2321707337,
+            "lat": 49.7790505,
+            "lon": 18.5143016,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Albrechtice, U hráze",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Albrechtice,,vodojem[KA]",
+        "info": {
+            "id": 2321707391,
+            "lat": 49.7757859,
+            "lon": 18.5025325,
+            "tags": {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Albrechtice, vodojem",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Albrechtice,,žel.st.[KA]",
+        "info": {
+            "id": 2321707368,
+            "lat": 49.7933088,
+            "lon": 18.5245758,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Albrechtice, žel.st.",
+                "network": "ODIS",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,Mezidolí[KA]",
+        "info": {
+            "id": 3184207353,
+            "lat": 49.7670302,
+            "lon": 18.4229592,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, Mezidolí",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,Na Důlňáku[KA]",
+        "info": {
+            "id": 3184207354,
+            "lat": 49.7687561,
+            "lon": 18.4297111,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, Na Důlňáku",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,U Kasperčoka[KA]",
+        "info": {
+            "id": 9052307747,
+            "lat": 49.7570661,
+            "lon": 18.4602841,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, U Kasperčoka",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,kopec[KA]",
+        "info": {
+            "id": 2318332671,
+            "lat": 49.7624284,
+            "lon": 18.4660126,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, kopec",
+                "public_transport": "platform",
+                "route_ref": "402;413"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,pod kopcem[KA]",
+        "info": {
+            "id": 2318332675,
+            "lat": 49.7681162,
+            "lon": 18.4536233,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, pod kopcem",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,polská škola[KA]",
+        "info": {
+            "id": 9052319126,
+            "lat": 49.7661727,
+            "lon": 18.4417,
+            "tags": {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov, Bludovice, polská škola",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,pošta[KA]",
+        "info": {
+            "id": 9052307789,
+            "lat": 49.7676977,
+            "lon": 18.4564814,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, pošta",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,točna Datyňská[KA]",
+        "info": {
+            "id": 3184207356,
+            "lat": 49.7648333,
+            "lon": 18.4198106,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, točna Datyňská",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,u Lučiny[KA]",
+        "info": {
+            "id": 3184207355,
+            "lat": 49.7684106,
+            "lon": 18.4339985,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, u Lučiny",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Bludovice,škola Frýdecká[KA]",
+        "info": {
+            "id": 9052319069,
+            "lat": 49.7658923,
+            "lon": 18.4449693,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Bludovice, škola Frýdecká",
+                "public_transport": "platform",
+                "shelter": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Datyně,rozc.Bludovice[KA]",
+        "info": {
+            "id": 4180178277,
+            "lat": 49.7613116,
+            "lon": 18.4163053,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Dolní Datyně, rozc.Bludovice",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Datyně,točna J.Kotase[KA]",
+        "info": {
+            "id": 4180178279,
+            "lat": 49.7667666,
+            "lon": 18.4055822,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Dolní Datyně, točna J. Kotase",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Datyně,škola[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,Prachatická[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,Sušanské rybníky[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,u lesa[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,u zahrádek[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,u školy[KA]",
+        "info": {
+            "id": 10834538557,
+            "lat": 49.8052677,
+            "lon": 18.4325923,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov, Dolní Suchá, u školy",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Dolní Suchá,Šumbarská[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Bludovická[KA]",
+        "info": {
+            "id": 2314357159,
+            "lat": 49.7724016,
+            "lon": 18.442393,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Bludovická",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Formanská[KA]",
+        "info": {
+            "id": 3184207357,
+            "lat": 49.7681754,
+            "lon": 18.4174035,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Formanská",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Jitřenka[KA]",
+        "info": {
+            "id": 2312808950,
+            "lat": 49.7775561,
+            "lon": 18.4418884,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov, Město, Jitřenka",
+                "old_name": "Havířov,Město,u fontány Jitřenka",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Lípová[KA]",
+        "info": {
+            "id": 2314092010,
+            "lat": 49.7763695,
+            "lon": 18.4352247,
+            "tags": {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "no",
+                "name": "Havířov,Město,Lípová",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Magistrát[KA]",
+        "info": {
+            "id": 5301869715,
+            "lat": 49.7836195,
+            "lon": 18.4238508,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Magistrát",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Moskevská[KA]",
+        "info": {
+            "id": 2623391595,
+            "lat": 49.7850596,
+            "lon": 18.4418882,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Moskevská",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Mozartova[KA]",
+        "info": {
+            "id": 2623391594,
+            "lat": 49.7833514,
+            "lon": 18.4434673,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Mozartova",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Mánesova[KA]",
+        "info": {
+            "id": 2623379957,
+            "lat": 49.7804817,
+            "lon": 18.444229,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Město, Mánesova",
+                "old_name": "Havířov,Město,škola Mánesova",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Na Fojtství[KA]",
+        "info": {
+            "id": 3184207358,
+            "lat": 49.7718127,
+            "lon": 18.4345891,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Na Fojtství",
+                "network": "cz:ODIS",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Na Prostředňáku[KA]",
+        "info": {
+            "id": 3184207359,
+            "lat": 49.7730698,
+            "lon": 18.4161983,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Na Prostředňáku",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Nám.Republiky[KA]",
+        "info": {
+            "id": 8535708456,
+            "lat": 49.7809083,
+            "lon": 18.4296612,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov, Město, Nám. Republiky",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Národní tř.[KA]",
+        "info": {
+            "id": 2318295935,
+            "lat": 49.7766085,
+            "lon": 18.4366436,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Národní třída",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Puškinova[KA]",
+        "info": {
+            "id": 2312810119,
+            "lat": 49.7765151,
+            "lon": 18.44723,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Puškinova",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Slezská[KA]",
+        "info": {
+            "id": 2314357168,
+            "lat": 49.7717722,
+            "lon": 18.436944,
+            "tags": {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Slezská",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Tichá[KA]",
+        "info": {
+            "id": 2314092012,
+            "lat": 49.7891263,
+            "lon": 18.4246917,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Tichá",
+                "shelter": "no",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Tolstého[KA]",
+        "info": {
+            "id": 2318302023,
+            "lat": 49.7733832,
+            "lon": 18.4423554,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Tolstého",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,nemocnice[KA]",
+        "info": {
+            "id": 11113771368,
+            "lat": 49.7848132,
+            "lon": 18.4360796,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,nemocnice",
+                "network": "ODIS",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,obchodní dům[KA]",
+        "info": {
+            "id": 5322127755,
+            "lat": 49.7818738,
+            "lon": 18.4325904,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,obchodní dům",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,pož.zbroj.[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,sběrna[KA]",
+        "info": {
+            "id": 2314277491,
+            "lat": 49.7740051,
+            "lon": 18.4335885,
+            "tags": {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "no",
+                "name": "Havířov,Město,sběrna",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,střed[KA]",
+        "info": {
+            "id": 5301878355,
+            "lat": 49.7786792,
+            "lon": 18.4361634,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,střed",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,u podloubí[KA]",
+        "info": {
+            "id": 8535890250,
+            "lat": 49.7860339,
+            "lon": 18.4200141,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,u podloubí",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Česká[KA]",
+        "info": {
+            "id": 2313935676,
+            "lat": 49.7881307,
+            "lon": 18.4315584,
+            "tags": {
+                "bench": "no",
+                "bin": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov,Město,Česká",
+                "shelter": "no",
+                "tactile_paving": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,Žákovská[KA]",
+        "info": {
+            "id": 2627371928,
+            "lat": 49.7783042,
+            "lon": 18.4475092,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Město,Žákovská"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Město,žel.st.[KA]",
+        "info": {
+            "id": 2306404156,
+            "lat": 49.7908961,
+            "lon": 18.4123484,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Město,žel.st.",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Bezručova[KA]",
+        "info": {
+            "id": 2623273154,
+            "lat": 49.7769838,
+            "lon": 18.4584568,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,Bezručova",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Merkur[KA]",
+        "info": {
+            "id": 2312811859,
+            "lat": 49.7734044,
+            "lon": 18.4591551,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Podlesí, Merkur",
+                "old_name": "Havířov,Podlesí,hot.Merkur",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Nad Terasou[KA]",
+        "info": {
+            "id": 2312811053,
+            "lat": 49.7755399,
+            "lon": 18.4519053,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,Nad Terasou",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Okrajová u garáží[KA]",
+        "info": {
+            "id": 2312813895,
+            "lat": 49.7699059,
+            "lon": 18.4552132,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,Okrajová u garáží",
+                "network": "ODIS",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Rušná[KA]",
+        "info": {
+            "id": 2623273152,
+            "lat": 49.7778014,
+            "lon": 18.4535594,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,Rušná",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Těšínská[KA]",
+        "info": {
+            "id": 2165835451,
+            "lat": 49.7703673,
+            "lon": 18.4489614,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,Těšínská",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,aut.nádr.[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,lesopark[KA]",
+        "info": {
+            "id": 8535890249,
+            "lat": 49.7729288,
+            "lon": 18.4642866,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Podlesí, Lesopark",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,zdravotní středisko[KA]",
+        "info": {
+            "id": 2312811861,
+            "lat": 49.7744625,
+            "lon": 18.4585679,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Podlesí,zdravotní středisko"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Podlesí,Úřad práce[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,Budovatelů[KA]",
+        "info": {
+            "id": 9052307760,
+            "lat": 49.793276,
+            "lon": 18.4514442,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Pr. Suchá, Budovatelů",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,Kaufland[KA]",
+        "info": {
+            "id": 2312966547,
+            "lat": 49.7890009,
+            "lon": 18.4415648,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov, Pr. Suchá, Kaufland",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,Kpt.Jasioka stánek[KA]",
+        "info": {
+            "id": 2313875241,
+            "lat": 49.7940232,
+            "lon": 18.4552876,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Pr. Suchá, Kpt. Jasioka stánek",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,U Hřiště[KA]",
+        "info": {
+            "id": 9052307762,
+            "lat": 49.7975081,
+            "lon": 18.4502835,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Pr. Suchá, U Hřiště",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,U Skleníků[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,Vodní[KA]",
+        "info": {
+            "id": 9052307758,
+            "lat": 49.8014419,
+            "lon": 18.4504572,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Pr. Suchá, Vodní",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,evangelický kostel[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,katolický kostel[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,modlitebna[KA]",
+        "info": {
+            "id": 2627333597,
+            "lat": 49.789762,
+            "lon": 18.449663,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Pr.Suchá,modlitebna"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,rozc.k žel.st.[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,sídliště[KA]",
+        "info": {
+            "id": 2313875243,
+            "lat": 49.7930147,
+            "lon": 18.448849,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov, Pr. Suchá, sídliště",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,Šimala[KA]",
+        "info": {
+            "id": 2627371932,
+            "lat": 49.7852028,
+            "lon": 18.4513142,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Pr.Suchá,Šimala",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Pr.Suchá,žel.st.[KA]",
+        "info": {
+            "id": 1601422954,
+            "lat": 49.7801136,
+            "lon": 18.4368451,
+            "tags": {
+                "name": "Havířov",
+                "name:cs": "Havířov",
+                "name:de": "Hawirzow",
+                "name:lt": "Haviržovas",
+                "name:pl": "Hawierzów",
+                "name:ru": "Гавиржов",
+                "name:sr": "Хавиржов",
+                "name:uk": "Гавіржов",
+                "old_name": "Šumbark",
+                "place": "town",
+                "population": "69084",
+                "source": "csu:uir-zsj",
+                "website": "https://www.havirov-city.cz/",
+                "wikidata": "Q192904",
+                "wikipedia": "cs:Havířov"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,2.etapa Letní[KA]",
+        "info": {
+            "id": 2305039678,
+            "lat": 49.8040993,
+            "lon": 18.4211027,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,2.etapa,Letní",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,2.etapa Orlí[KA]",
+        "info": {
+            "id": 2305039938,
+            "lat": 49.7998666,
+            "lon": 18.4235627,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,2.etapa,Orlí",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,2.etapa u hřbitova[KA]",
+        "info": {
+            "id": 2305041635,
+            "lat": 49.7981022,
+            "lon": 18.4190567,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,2.etapa,u hřbitova",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,H.Malířové[KA]",
+        "info": {
+            "id": 2317953308,
+            "lat": 49.7969129,
+            "lon": 18.3969768,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,H. Malířové",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,M.Pujmanové[KA]",
+        "info": {
+            "id": 2623484202,
+            "lat": 49.7937357,
+            "lon": 18.3978619,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,M. Pujmanové",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,Obránců míru[KA]",
+        "info": {
+            "id": 2312922308,
+            "lat": 49.7946033,
+            "lon": 18.4063806,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,Obránců míru",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,SNP[KA]",
+        "info": {
+            "id": 2305047531,
+            "lat": 49.7939238,
+            "lon": 18.4101978,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,SNP",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,U Jelena[KA]",
+        "info": {
+            "id": 2445062249,
+            "lat": 49.8090731,
+            "lon": 18.4124654,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,U Jelena",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,U Nádraží[KA]",
+        "info": {
+            "id": 2314495886,
+            "lat": 49.7914553,
+            "lon": 18.4036582,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,U Nádraží"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,Vsuvky[KA]",
+        "info": {
+            "id": 2312918716,
+            "lat": 49.7968871,
+            "lon": 18.4079573,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,Vsuvky",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,bazén[KA]",
+        "info": {
+            "id": 5301869720,
+            "lat": 49.7932599,
+            "lon": 18.4121446,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Havířov, Šumbark, bazén",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,hřbitov[KA]",
+        "info": {
+            "id": 8535890247,
+            "lat": 49.797094,
+            "lon": 18.4221634,
+            "tags": {
+                "bus": "yes",
+                "departures_board": "timetable",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,Hřbitov",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,mateřská škola[KA]",
+        "info": {
+            "id": 2318091870,
+            "lat": 49.7928579,
+            "lon": 18.4037007,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,mateřská škola",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,rozc.[KA]",
+        "info": {
+            "id": 2445062245,
+            "lat": 49.7989337,
+            "lon": 18.4139859,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,rozc.",
+                "network": "ODIS",
+                "operator": "Transdev Slezsko",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,točna 2.etapa[KA]",
+        "info": {
+            "id": 2303688338,
+            "lat": 49.8053925,
+            "lon": 18.4201426,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,točna II.etapa",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,točna Lidická[KA]",
+        "info": {
+            "id": 2317953310,
+            "lat": 49.7995168,
+            "lon": 18.4009114,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,točna Lidická",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,točna Petřvaldská[KA]",
+        "info": {
+            "id": 2445062246,
+            "lat": 49.8018061,
+            "lon": 18.4122833,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,točna Petřvaldská",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Šumbark,Školní[KA]",
+        "info": {
+            "id": 2305043117,
+            "lat": 49.79512,
+            "lon": 18.4087182,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Šumbark,Školní",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Životice,Památník[KA]",
+        "info": {
+            "id": 2318332680,
+            "lat": 49.7679526,
+            "lon": 18.4737627,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Životice,Památník"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Životice,Přátelství[KA]",
+        "info": {
+            "id": 2318332672,
+            "lat": 49.7655946,
+            "lon": 18.4706623,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Životice,Přátelství"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Životice,U Křížů[KA]",
+        "info": {
+            "id": 2318333313,
+            "lat": 49.7715313,
+            "lon": 18.4775983,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Životice,U Křížů"
+            }
+        }
+    },
+    {
+        "name": "Havířov,Životice,rozc.[KA]",
+        "info": {
+            "id": 2318353245,
+            "lat": 49.7738023,
+            "lon": 18.4866293,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Havířov,Životice,rozc."
+            }
+        }
+    },
+    {
+        "name": "Havířov,Životice,točna Pacalůvka[KA]",
+        "info": {
+            "id": 2318353234,
+            "lat": 49.775595,
+            "lon": 18.4954698,
+            "tags": {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Havířov,Životice,točna Pacalůvka",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,Adámek[KA]",
+        "info": {
+            "id": 4180178282,
+            "lat": 49.7571656,
+            "lon": 18.4174944,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Bludovice, Adámek"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,Amerika[KA]",
+        "info": {
+            "id": 4180178283,
+            "lat": 49.7507371,
+            "lon": 18.4085305,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Bludovice, Amerika"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,U Petra[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,U Tůňky[KA]",
+        "info": {
+            "id": 4180178284,
+            "lat": 49.7460501,
+            "lon": 18.4027022,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Bludovice, U Tůňky"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,U kaple[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,U lípy[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,U tří křížů[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,Vrchy[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,Záguří[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,chodníček[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,hřbitov[KA]",
+        "info": {
+            "id": 1601422918,
+            "lat": 49.7496509,
+            "lon": 18.4367722,
+            "tags": {
+                "name": "Horní Bludovice",
+                "name:cs": "Horní Bludovice",
+                "place": "village",
+                "population": "1564",
+                "ref:cobe": "042404",
+                "ref:zsj": "042404",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1023477",
+                "wikipedia": "cs:Horní Bludovice"
+            }
+        }
+    },
+    {
+        "name": "Horní Bludovice,,rest.U Mokrošů[KA]",
+        "info": {
+            "id": 7684880003,
+            "lat": 49.7512483,
+            "lon": 18.4374779,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Horní Bludovice, rest. U Mokrošů",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,Děl.dům[KA]",
+        "info": {
+            "id": 1601422908,
+            "lat": 49.7977588,
+            "lon": 18.4816244,
+            "tags": {
+                "name": "Horní Suchá",
+                "name:cs": "Horní Suchá",
+                "name:de": "Obersuchau",
+                "name:pl": "Sucha Górna",
+                "place": "village",
+                "population": "4370",
+                "ref:cobe": "044407",
+                "ref:zsj": "044407",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q599055",
+                "wikipedia": "cs:Horní Suchá"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,František[KA]",
+        "info": {
+            "id": 2330450299,
+            "lat": 49.8056259,
+            "lon": 18.4792824,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Horní Suchá, František",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,Pašůvka[KA]",
+        "info": {
+            "id": 2313908154,
+            "lat": 49.7874673,
+            "lon": 18.467135,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Suchá, Pašůvka",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,U Pavlasů[KA]",
+        "info": {
+            "id": 1601422908,
+            "lat": 49.7977588,
+            "lon": 18.4816244,
+            "tags": {
+                "name": "Horní Suchá",
+                "name:cs": "Horní Suchá",
+                "name:de": "Obersuchau",
+                "name:pl": "Sucha Górna",
+                "place": "village",
+                "population": "4370",
+                "ref:cobe": "044407",
+                "ref:zsj": "044407",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q599055",
+                "wikipedia": "cs:Horní Suchá"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,dvůr[KA]",
+        "info": {
+            "id": 2330450300,
+            "lat": 49.8006772,
+            "lon": 18.4790041,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Suchá, dvůr",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,konečná[KA]",
+        "info": {
+            "id": 2330450298,
+            "lat": 49.8061487,
+            "lon": 18.4772547,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Suchá, konečná"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,škola[KA]",
+        "info": {
+            "id": 2334182399,
+            "lat": 49.7966273,
+            "lon": 18.4842018,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Suchá, škola"
+            }
+        }
+    },
+    {
+        "name": "Horní Suchá,,žel.st.[KA]",
+        "info": {
+            "id": 10983689808,
+            "lat": 49.7938119,
+            "lon": 18.4849142,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Horní Suchá, žel.st.",
+                "public_transport": "platform",
+                "route_ref": "413"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Březiny[KA]",
+        "info": {
+            "id": 2441850557,
+            "lat": 49.8376731,
+            "lon": 18.4047032,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Březiny",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Důl Fučík 1[KA]",
+        "info": {
+            "id": 2441267093,
+            "lat": 49.8190281,
+            "lon": 18.3773771,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Důl Fučík 1",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Finské domky[KA]",
+        "info": {
+            "id": 2445055116,
+            "lat": 49.8154793,
+            "lon": 18.3992494,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Finské domky",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Na kopci[KA]",
+        "info": {
+            "id": 2445055115,
+            "lat": 49.8187628,
+            "lon": 18.3956199,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Na kopci",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Parcelace[KA]",
+        "info": {
+            "id": 4180423023,
+            "lat": 49.8347047,
+            "lon": 18.4013324,
+            "tags": {
+                "bus": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Parcelace",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Pod Sokolovnou[KA]",
+        "info": {
+            "id": 1746058327,
+            "lat": 49.830559,
+            "lon": 18.3911624,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Pod Sokolovnou",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,Pustky[KA]",
+        "info": {
+            "id": 2441272713,
+            "lat": 49.8262022,
+            "lon": 18.3873471,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,Pustky",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,likérka[KA]",
+        "info": {
+            "id": 4180779090,
+            "lat": 49.8169626,
+            "lon": 18.3746381,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald, likérka",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,střed[KA]",
+        "info": {
+            "id": 2291433613,
+            "lat": 49.8293621,
+            "lon": 18.3881917,
+            "tags": {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,střed",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Petřvald,,vodárna[KA]",
+        "info": {
+            "id": 2445055117,
+            "lat": 49.8133755,
+            "lon": 18.4025372,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Petřvald,vodárna",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Stonava,,sídl.Nový svět[KA]",
+        "info": {
+            "id": 1601422798,
+            "lat": 49.8169885,
+            "lon": 18.5250675,
+            "tags": {
+                "name": "Stonava",
+                "name:cs": "Stonava",
+                "name:de": "Steinau",
+                "name:pl": "Stonawa",
+                "place": "village",
+                "population": "1809",
+                "ref:cobe": "155632",
+                "ref:zsj": "155632",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q2000659",
+                "wikipedia": "cs:Stonava"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Dlouhá[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Osekovec[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,V zátoce[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelené Město Na kopci[KA]",
+        "info": {
+            "id": 5647123585,
+            "lat": 49.7416145,
+            "lon": 18.4890233,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Těrlicko, Zelené Město Na kopci",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelené Město Na mezi[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelené Město U Goduly[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelené Město rozc.[KA]",
+        "info": {
+            "id": 5646278825,
+            "lat": 49.7394617,
+            "lon": 18.4877224,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Těrlicko, Zelené Město rozc.",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelené Město[KA]",
+        "info": {
+            "id": 5646278523,
+            "lat": 49.7436009,
+            "lon": 18.4892754,
+            "tags": {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Těrlicko, Zelené Město",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,Zelmer[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,hřbitov[KA]",
+        "info": {
+            "id": 5289664727,
+            "lat": 49.7572276,
+            "lon": 18.4769162,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Těrlicko, hřbitov",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,křiž.[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,obecní úřad[KA]",
+        "info": {
+            "id": 756315592,
+            "lat": 49.7520131,
+            "lon": 18.4832323,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Těrlicko, obecní úřad",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,střed[KA]",
+        "info": {
+            "id": 756315557,
+            "lat": 49.7513352,
+            "lon": 18.4895847,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Těrlicko, střed",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,,čekárna[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,Hradiště,U Stonávky[KA]",
+        "info": {
+            "id": 1601422797,
+            "lat": 49.7520345,
+            "lon": 18.4828608,
+            "tags": {
+                "name": "Těrlicko",
+                "name:cs": "Těrlicko",
+                "name:de": "Tierlitzko",
+                "name:pl": "Cierlicko",
+                "place": "village",
+                "population": "2890",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q1575784",
+                "wikipedia": "cs:Těrlicko"
+            }
+        }
+    },
+    {
+        "name": "Těrlicko,Hradiště,u Káňů[KA]",
+        "info": {
+            "id": 1664606989,
+            "lat": 49.7303342,
+            "lon": 18.5100298,
+            "tags": {
+                "bench": "yes",
+                "designation": "U Káňů",
+                "highway": "bus_stop",
+                "lines": "733, 735, 745, 749,",
+                "name": "Těrlicko, Hradiště, U Káňů",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "source": "survey"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Březůvka[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Lapačka[KA]",
+        "info": {
+            "id": 3184210363,
+            "lat": 49.7686065,
+            "lon": 18.3806169,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov,Lapačka",
+                "network": "ODIS",
+                "operator": "Transdev Slezsko",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Na Šimšce[KA]",
+        "info": {
+            "id": 3184210364,
+            "lat": 49.7725968,
+            "lon": 18.3907385,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov, Na Šimšce",
+                "network": "ODIS",
+                "operator": "Transdev Slezsko",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Na Škrbeni[KA]",
+        "info": {
+            "id": 3184210365,
+            "lat": 49.7773566,
+            "lon": 18.3996796,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov, Na Škrbeni",
+                "network": "ODIS",
+                "public_transport": "stop_position"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Nová[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Pod Šodkem[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,U hřbitova[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,V Družstvu-Březová[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,V Družstvu[KA]",
+        "info": {
+            "id": 5299380789,
+            "lat": 49.7998518,
+            "lon": 18.3754275,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov,V Družstvu",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,bytovky[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,křiž.[KA]",
+        "info": {
+            "id": 5299386654,
+            "lat": 49.7923725,
+            "lon": 18.3705378,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov,křiž.",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,křiž.k Dolní Datyni[KA]",
+        "info": {
+            "id": 4180182492,
+            "lat": 49.7619534,
+            "lon": 18.3838005,
+            "tags": {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov, křiž.k Dolní Datyni",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,náměstí[KA]",
+        "info": {
+            "id": 5299386652,
+            "lat": 49.7851694,
+            "lon": 18.3753482,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov,náměstí",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,rozc.Šimška[KA]",
+        "info": {
+            "id": 3184210366,
+            "lat": 49.7767875,
+            "lon": 18.3889505,
+            "tags": {
+                "highway": "bus_stop",
+                "name": "Šenov,,rozc. Šimška",
+                "public_transport": "platform"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,ČSAD[KA]",
+        "info": {
+            "id": 1601523098,
+            "lat": 49.7931698,
+            "lon": 18.3756285,
+            "tags": {
+                "name": "Šenov",
+                "name:cs": "Šenov",
+                "name:de": "Schönhof",
+                "name:pl": "Szonów",
+                "place": "town",
+                "population": "5406",
+                "ref:cobe": "162345",
+                "ref:zsj": "162345",
+                "source": "csu:uir-zsj",
+                "wikidata": "Q331306",
+                "wikipedia": "cs:Šenov"
+            }
+        }
+    },
+    {
+        "name": "Šenov,,Škrbeň[KA]",
+        "info": {
+            "id": 5299394386,
+            "lat": 49.7766324,
+            "lon": 18.3777426,
+            "tags": {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Šenov,Škrbeň",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        }
+    }
+]

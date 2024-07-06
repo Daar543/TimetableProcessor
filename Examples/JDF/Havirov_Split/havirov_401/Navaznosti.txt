@@ -1,0 +1,14 @@
+"m","876401","2","13","0","0","0","0","0","0","spoj 2 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 2 linky 403 nejvýše 2 minut.","1";
+"m","876401","2","13","0","0","0","0","0","0","spoj 2 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 2 linky 404 nejvýše 2 minut.","1";
+"M","876401","2","13","0","0","0","0","0","0","na spoj 2 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 2 linky 403 do Podlesí, Rušná","1";
+"M","876401","2","13","0","0","0","0","0","0","na spoj 2 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 2 linky 404 do Podlesí, Nad Terasou","1";
+"M","876401","12","2","0","0","0","0","0","0","na spoj 12 navazuje v zastávce Havíøov,Pr.Suchá,žel.st. spoj 2 linky 876421 do Pr.Suchá,Šimala; Podlesí,aut.nádr. (bez pøestupu)","1";
+"m","876401","84","11","0","0","0","0","0","0","spoj 84 vyèká v zastávce Havíøov,Mìsto,Magistrát pøíjezdu spoje 108 linky 876404 nejvýše 3 minut.","1";
+"M","876401","84","11","0","0","0","0","0","0","na spoj 84 navazuje v zastávce Havíøov,Mìsto,Magistrát spoj 108 linky 876404 do Podlesí, aut.nádr.","1";
+"m","876401","202","13","0","0","0","0","0","0","spoj 202 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 202 linky 403 nejvýše 2 minut.","1";
+"m","876401","202","13","0","0","0","0","0","0","spoj 202 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 202 linky 404 nejvýše 2 minut.","1";
+"M","876401","202","13","0","0","0","0","0","0","na spoj 202 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 202 linky 403 do Podlesí, Rušná","1";
+"M","876401","202","13","0","0","0","0","0","0","na spoj 202 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 202 linky 404 do Podlesí, Nad Terasou","1";
+"m","876401","204","11","0","0","0","0","0","0","spoj 204 vyèká v zastávce Havíøov,Mìsto,Magistrát pøíjezdu spoje 204 linky 876404 nejvýše 3 minut.","1";
+"m","876401","234","11","0","0","0","0","0","0","spoj 234 vyèká v zastávce Havíøov,Mìsto,Magistrát pøíjezdu spoje 260 linky 876404 nejvýše 3 minut.","1";
+"M","876401","234","11","0","0","0","0","0","0","na spoj 234 navazuje v zastávce Havíøov,Mìsto,Magistrát spoj 260 linky 876404 do Podlesí, aut.nádr.","1";

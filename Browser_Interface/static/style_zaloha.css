@@ -1,0 +1,154 @@
+.tab-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tab-button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tab-button.active {
+    background-color: #fff;
+    border: 5px solid #000;
+    margin-right: 5px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltip_text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip_text {
+    visibility: visible;
+}
+
+.tooltip img {
+    width: 20px;
+    height: 20px;
+}
+
+.tooltip:hover .tooltip_text {
+    visibility: visible;
+}
+
+.coordinates-container table {
+    width: 100%;
+}
+
+.coordinates-container td {
+    white-space: nowrap;
+    overflow: visible;
+
+}
+
+.coordinates-container td input[type="text"] {
+    width: 90%;
+}
+
+.coordinates-container td input[type="number"] {
+    width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-container {
+    flex: 1;
+    order: 1;
+    overflow-y: scroll;
+    padding-left: 20px;
+    height: 100%;
+}
+
+.right-container {
+    flex: 1;
+    order: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.map-container {
+    height: 400px;
+    width: 100%;
+}
+
+.current-coordinates {
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.bottom-container {
+
+}
+
+.coordinates-container {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+table thead {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+/*change color: https://stackoverflow.com/a/61982880/11225560*/
+img.hueplus {
+    filter: hue-rotate(90deg);
+}
+
+img.hueminus {
+    filter: hue-rotate(-90deg);
+}

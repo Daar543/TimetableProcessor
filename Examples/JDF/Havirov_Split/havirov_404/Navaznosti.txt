@@ -1,0 +1,8 @@
+"m","876403","2","15","0","0","0","0","0","0","spoj 2 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 2 linky 401 nejvýše 2 minut.","1";
+"m","876403","2","15","0","0","0","0","0","0","spoj 2 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 2 linky 404 nejvýše 2 minut.","1";
+"M","876403","2","15","0","0","0","0","0","0","na spoj 2 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 2 linky 401 do Pr.Suchá, Kaufland","1";
+"M","876403","2","15","0","0","0","0","0","0","na spoj 2 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 2 linky 404 do Podlesí, Nad Terasou","1";
+"m","876403","202","15","0","0","0","0","0","0","spoj 202 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 202 linky 401 nejvýše 2 minut.","1";
+"m","876403","202","15","0","0","0","0","0","0","spoj 202 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 202 linky 404 nejvýše 2 minut.","1";
+"M","876403","202","15","0","0","0","0","0","0","na spoj 202 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 202 linky 401 do Pr.Suchá, Kaufland","1";
+"M","876403","202","15","0","0","0","0","0","0","na spoj 202 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 202 linky 404 do Podlesí, Nad Terasou","1";

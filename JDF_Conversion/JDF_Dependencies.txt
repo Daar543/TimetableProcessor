@@ -1,0 +1,31 @@
+A graph showing the dependencies in JDF files
+
+digraph jdf_zavislosti {
+	rankdir=LR;
+	size="20";
+    ordering = out;
+	node [shape = doublecircle]; Linky Zastavky Spoje Dopravci;
+	node [shape = circle];
+    edge[dir = "back"];
+Linky -> Zaslinky;
+Zaslinky -> Zastavky;
+Linky -> Spoje;
+Spoje -> Zasspoje;
+Zasspoje -> Zaslinky;
+Linky -> Dopravci;
+Linky -> Altdop
+Linky -> Altlinky
+Spoje -> Místenky
+Altdop -> Dopravci
+Spoje -> Navaznosti
+Spoje -> Pevnykod
+Linky -> Udaje
+Linky -> LinExt
+Zastavky -> Oznacniky
+Zastavky -> Pevnykod
+Zaslinky -> Pevnykod
+Zasspoje -> Pevnykod
+Altdop -> Pevnykod
+Spoje -> Caskody
+Spoje -> Spojskup
+}

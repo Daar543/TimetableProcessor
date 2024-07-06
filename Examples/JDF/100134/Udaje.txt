@@ -1,0 +1,4 @@
+"100134","1","Pražská integrovaná doprava. Platí smluvní pøepravní podmínky a Tarif PID.","1";
+"100134","2","Jízda s pøedem zakoupenou jízdenkou. Doplòkový prodej jízdenek s pøirážkou u øidièe.","1";
+"100134","3","Pásmo P je poèítáno jako 2 tarifní pásma.","1";
+"100134","4","Grafikony:  PD: P7117 So: T7115 Ne: T7116","1";

@@ -1,0 +1,15 @@
+"1","Havíøov","Mìsto","nemocnice","KA","","19","14","","","","";
+"2","Havíøov","Mìsto","obchodní dùm","KA","","19","14","","","","";
+"3","Havíøov","Dolní Suchá","Sušanské rybníky","KA","","19","","","","","";
+"4","Havíøov","Pr.Suchá","Vodní","KA","","19","","","","","";
+"5","Havíøov","Pr.Suchá","U Høištì","KA","","19","14","","","","";
+"6","Havíøov","Pr.Suchá","sídlištì","KA","","19","","","","","";
+"7","Havíøov","Pr.Suchá","Kaufland","KA","","19","14","","","","";
+"8","Havíøov","Dolní Suchá","Šumbarská","KA","","19","","","","","";
+"9","Havíøov","Šumbark","toèna 2.etapa","KA","","19","","","","","";
+"10","Havíøov","Dolní Suchá","u lesa","KA","","19","","","","","";
+"11","Havíøov","Dolní Suchá","Prachatická","KA","","19","","","","","";
+"12","Havíøov","Dolní Suchá","u školy","KA","","19","","","","","";
+"13","Havíøov","Pr.Suchá","katolický kostel","KA","","19","","","","","";
+"14","Havíøov","Pr.Suchá","evangelický kostel","KA","","19","","","","","";
+"15","Havíøov","Dolní Suchá","u zahrádek","KA","","19","","","","","";

@@ -1,0 +1,42 @@
+{% include 'header.html' %}
+<body>
+{% set title='Export' %}
+{% include 'navigation.html' %}
+{% include 'inline_errors.html' %}
+<h1>Download timetables</h1>
+<form action="download" method="post">
+    <div>
+        <h2>Source JDF</h2>
+        <select name="JDF_folder" id="jdfFolder">
+            {% for folder in jdfFolderNames %}
+            <option value="{{ folder }}">{{ folder }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div>
+        <h2>Options</h2>
+        <div>
+            <input type="checkbox" name="oneFile" id="oneFile">
+            <label for="oneFile">All timetables in one workbook</label>
+        </div>
+        <div>
+            <input type="checkbox" name="bidirectional" id="bidirectional">
+            <label for="bidirectional">Both directions within one file</label>
+        </div>
+        <div>
+            <input type="checkbox" name="splitDays" id="splitDays">
+            <div class="tooltip">
+                <label for="splitDays">Split workdays and weekends
+                    <!-- Popup with info picture and title-->
+                        <img src="{{ url_for('static', filename='info.png') }}" class="tooltip_img" alt="info">
+                        <span class="tooltip_text">Trips for working days will be listed first,
+                        trips for Saturdays or Sundays will be listed last. <br>
+                        Irregular or full-week trips will be listed between them.</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <button type="submit">Download timetables</button>
+</form>
+</body>
+{% include 'footer.html' %}

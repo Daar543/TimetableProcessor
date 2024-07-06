@@ -1,0 +1,13 @@
+{% set errors = errors or [] %}
+{% if error %}
+{% set errors = errors + [error] %}
+{% endif %}
+{% if errors %}
+<div class="errors">
+    {% for er in errors %}
+    {% if er %}
+        <div class="error" style="white-space: pre-wrap;">{{er}}</div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

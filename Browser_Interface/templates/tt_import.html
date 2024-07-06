@@ -1,0 +1,12 @@
+{%include 'header.html'%}
+<body>
+{% set title='Import' %}
+{% include 'navigation.html' %}
+{% include 'inline_errors.html' %}
+<h1>Importing timetable from XLSX</h1>
+<form action="/api/timetables/import" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="file">
+    <input type="submit" value="Submit" class="disableSubmit">
+</form>
+</body>
+{% include 'footer.html' %}

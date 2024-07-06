@@ -1,0 +1,171 @@
+{%include "header.html"%}
+<body>
+{% set title="Optimize" %}
+{% include "navigation.html" %}
+<h1>Schedule buses for trips</h1>
+{% include "inline_errors.html" %}
+<form action="/schedules/prepare" method="post" enctype=multipart/form-data>
+    <div>
+        <h2>Source JDF</h2>
+        <select name="JDF_folder">
+            {% for folder in jdfFolderNames %}
+            <option value="{{ folder }}">{{ folder }}</option>
+            {% endfor %}
+        </select>
+    <div>
+        <h2>Range of trips</h2>
+        <div>
+            <div class="tooltip">
+                <label for="startdt">Date and starting time
+                        <img src="{{ url_for('static', filename='info.png') }}" class="tooltip_img" alt="info">
+                        <span class="tooltip_text">Time before the first trip, usually morning hours</span>
+                </label>
+            </div>
+            <input type="datetime-local" name="startdate" id="startdt">
+
+        </div>
+        <div>
+            <div class="tooltip">
+            <label for="endtime">Ending time (optional)
+                    <img src="{{ url_for('static', filename='info.png') }}" class="tooltip_img" alt="info">
+                    <span class="tooltip_text">Time after the last trip, e.g. midnight. <br>
+            24 hours after starting time by default.</span>
+            </label>
+            </div>
+            <input type="time" name="endtime" id="endtime">
+        </div>
+        <div>
+            <h2>Method of calculating travel time between terminals</h2>
+            <div class="tooltip">
+                <img src="{{ url_for('static', filename='info.png') }}" class="tooltip_img" alt="info">
+                <span class="tooltip_text">Buses can travel between terminals to cover more trips.
+                        Minimizing this travel time (=deadhead) is a secondary objective.</span>
+            </div>
+            <div>
+                <select name="distancesCalc" id="distancesCalc" onchange="changeDistancesCalcDescription()">
+                    <option value="timetable" selected>Use timetable data</option>
+                    <option value="upload">Distance matrix</option>
+                    <option value="map">Use OSM navigation</option>
+                </select>
+                <label for="distancesCalc" id="distancesCalc_description"></label>
+            </div>
+            <div id="distancesCalc_input">
+                <input type="file" name="distancesCalc_matrix">
+            </div>
+            <script>
+                function changeDistancesCalcDescription() {
+                const distancesCalc = document.getElementById('distancesCalc').value;
+                let description = document.getElementById('distancesCalc_description');
+                let matrixInput = document.getElementById('distancesCalc_input');
+                let invalidateDist = document.getElementById('invalidate_distance_cb');
+                let invalidateSchedule= document.getElementById('invalidate_schedule_cb');
+                if (distancesCalc === 'timetable') {
+                    description.innerText =
+                        'Travel time between terminals is calculated from timetable data (from provided JDF or trips). ' +
+                        'Slower calculation for dense timetables.';
+                    matrixInput.disabled = true;
+                    matrixInput.style.visibility = 'hidden';
+                    invalidateDist.style.visibility = 'visible';
+                } else if (distancesCalc === 'upload') {
+                    description.innerText =
+                        'Travel time between terminals is calculated from a distance matrix provided by user.';
+                    matrixInput.disabled = false;
+                    matrixInput.style.visibility = 'visible';
+                    invalidateDist.style.visibility = 'hidden'; /*the file is always uploaded by user*/
+                } else if (distancesCalc === 'map') {
+                    description.innerText =
+                        'Travel time between terminals is calculated from OSM navigation. ' +
+                        'All stops must be located on the map within application. ' +
+                        'Slower calculation for many stops or large network.';
+                    matrixInput.disabled = true;
+                    matrixInput.style.visibility = 'hidden';
+                    invalidateDist.style.visibility = 'visible';
+                }
+            }
+            </script>
+            <div id="invalidate_distance_cb">
+                <input type="checkbox" name="invalidate_distance" id="invalidate_distance">
+                <label for="invalidate_distance">Invalidate cached distance matrix</label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Scheduling method</h2>
+        <div>
+            <select name="mode" id="mode"
+                    onchange="changeModeDescription()">
+                <option value="default">
+                    Default,exact
+                </option>
+                <option value="depot">
+                    Depot, exact
+                </option>
+                <option value="circular">
+                    Circular, approximate
+                </option>
+            </select>
+            <label for="mode" id="mode_description">Buses can start and end anywhere, time for return is not
+                optimized.</label>
+            <script>
+                function changeModeDescription() {
+                    const mode = document.getElementById('mode').value;
+                    const depotChoice = document.getElementById('depot_choice');
+                    const circularParams = document.getElementById('circular_parameters');
+                    if (mode === 'default') {
+                        document.getElementById('mode_description').innerText =
+                            'Each bus can start and end anywhere, time for return is not optimized.';
+                        depotChoice.style.display = 'none';
+                        circularParams.style.display = 'none';
+                    } else if (mode === 'depot') {
+                        document.getElementById('mode_description').innerText =
+                            'All buses start and end at a given depot (represented by a stop).';
+                        depotChoice.style.display = 'block';
+                        circularParams.style.display = 'none';
+                    } else if (mode === 'circular') {
+                        document.getElementById('mode_description').innerText =
+                            'Each bus can start at any given stop, but has to return to the same place at the end of its shift.';
+                        depotChoice.style.display = 'none';
+                        circularParams.style.display = 'block';
+                    }
+                }
+            </script>
+        </div>
+        <div id="depot_choice">
+            <label for="depot">Depot stop</label>
+            <input type="text" name="depot" id="depot" list="stopList">
+            <datalist id="stopList">
+                {% for stopN in stopNames %}
+                <option>{{stopN}}</option>
+                {% endfor %}
+            </datalist>
+        </div>
+        <div id="circular_parameters">
+            <div id="iterations_count">
+                <input type="number" name="iterations" id="iterations" value="100">
+                <label for="iterations">Number of iterations</label>
+            </div>
+            <div id="samples_count">
+                <input type="number" name="samples" id="samples" value="30">
+                <label for="samples">Number of samples remaining per iteration</label>
+            </div>
+            <div id="multiplications_count">
+                <input type="number" name="multiplications" id="multiplications" value="5">
+                <label for="multiplications">Number of multiplications per sample</label>
+            </div>
+        </div>
+        <div id="invalidate_schedule_cb">
+            <input type="checkbox" name="invalidate_schedule" id="invalidate_schedule">
+            <label for="invalidate_schedule">Invalidate cached schedule</label>
+        </div>
+    </div>
+    <br>
+    <input type="submit" value="Submit" class="showProcessing">
+</form>
+<script>
+    window.onload = function () {
+        changeDistancesCalcDescription();
+        changeModeDescription();
+    };
+</script>
+</body>
+{% include 'footer.html' %}

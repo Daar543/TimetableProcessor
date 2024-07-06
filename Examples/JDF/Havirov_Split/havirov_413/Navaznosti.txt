@@ -1,0 +1,8 @@
+"m","876413","68","6","0","0","0","0","0","0","spoj 68 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 103 linky 412 nejvýše 2 minut.","1";
+"m","876413","68","6","0","0","0","0","0","0","spoj 68 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 125 linky 416 nejvýše 2 minut.","1";
+"M","876413","68","6","0","0","0","0","0","0","na spoj 68 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 103 linky 412 do Šumbark, toèna Lidická","1";
+"M","876413","68","6","0","0","0","0","0","0","na spoj 68 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 125 linky 416 do Šumbark, toèna 2.etapa","1";
+"m","876413","234","6","0","0","0","0","0","0","spoj 234 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 237 linky 412 nejvýše 2 minut.","1";
+"m","876413","234","6","0","0","0","0","0","0","spoj 234 vyèká v zastávce Havíøov,Mìsto,žel.st. pøíjezdu spoje 275 linky 416 nejvýše 2 minut.","1";
+"M","876413","234","6","0","0","0","0","0","0","na spoj 234 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 237 linky 412 do Šumbark, toèna Lidická","1";
+"M","876413","234","6","0","0","0","0","0","0","na spoj 234 navazuje v zastávce Havíøov,Mìsto,žel.st. spoj 275 linky 416 do Šumbark, toèna 2.etapa","1";

@@ -1,0 +1,347 @@
+{% include 'header.html' %}
+<body>
+{% include 'navigation.html' %}
+<h1>Bus schedules</h1>
+{% include 'inline_errors.html' %}
+<div id="schedulesDisplay">
+    <h2>Schedules</h2>
+    <!-- the download link will open a new tab, and the user will be prompted to save the file -->
+    <a href="/download/schedule?{{downloadArgs}}" target="_blank" rel="noopener noreferrer">Download schedule as JSON</a>
+    <h3>Summary across all buses</h3>
+    <ul>
+        <li>Total trip amount: {{scheduleAttrs['Global trip count']}}</li>
+        <li>Total trip time: <span class="minutes_word">{{scheduleAttrs['Global trip time']}}</span></li>
+        <li>Scheduling method: {{scheduleAttrs['Scheduling method']}}</li>
+        <li>Distances were calculated by: {{scheduleAttrs['Distance calculated using']}}</li>
+        <li>Number of buses: {{schedules|length}}</li>
+        <li>Total deadheading time: <span class="minutes_word">{{scheduleAttrs['Global deadhead time']}}</span></li>
+        <li>Total waiting time: <span class="minutes_word">{{scheduleAttrs['Global waiting time']}}</span></li>
+    </ul>
+    <h3>Bus blocks</h3>
+    <table id=schedulesTable width="100%" class="cell-border compact stripe">
+        <thead>
+        <tr>
+            <th><!--show/hide--></th>
+            <th>Bus No</th>
+            <th>Day</th>
+            <th>Total trip time</th>
+            <th>Total deadheads</th>
+            <th>Total waiting</th>
+            <th>First stop</th>
+            <th>Departure time</th>
+            <th>Last stop</th>
+            <th>Arrival time</th>
+            <th>Last day</th>
+			<th>Trip index</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for bus in schedules %}
+        <tr class="parent-row">
+			{% set idx = loop.index %}
+            <td><!--show/hide--></td>
+            <td>{{ bus['Bus number'] }}</td>
+            <td>{{ bus['Trips'][0]['Day'] }}</td>
+            <td>{{ bus['Total trip time']}}</td>
+            <td>{{ bus['Total deadheading time']}}</td>
+            <td>{{ bus['Total waiting time'] }}</td>
+            <td>{{ bus['Trips'][0]['Start stop'] }}</td>
+            <td>{{ bus['Trips'][0]['Start time'] }}</td>
+            <td>{{ bus['Trips'][-1]['End stop'] }}</td>
+            <td>{{ bus['Trips'][-1]['End time'] }}</td>
+            <td>{{ bus['Trips'][-1]['Day'] }}</td>
+			<td>{{ idx-1 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+</div>
+<script>
+    function format_hhmm(mins,type,row) {
+        if(type==="sort"|| type==="type"){
+            return mins;
+        }
+        if(mins==null){
+            return 'N/A';
+        }
+        if (isNaN(mins)) {
+            return mins;
+        }
+        let hours = Math.floor(mins / 60);
+        let minutes = mins % 60;
+        return hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
+    }
+    function format_hhmm_word(mins,type,row) {
+        if(type==="sort"|| type==="type"){
+            return mins;
+        }
+        if(mins==null){
+            return 'N/A';
+        }
+        if (isNaN(mins)) {
+            return mins;
+        }
+        let hours = Math.floor(mins / 60);
+        let minutes = mins % 60;
+        let result = hours + (hours==1? ' hour': ' hours') +
+        ' ' +
+        minutes + (minutes==1? ' minute': ' minutes');
+        return result;
+
+    }
+    $(document).ready(function () {
+        let mins = document.getElementsByClassName('minutes_word');
+        for (let m of mins) {
+           m.innerText = format_hhmm_word(parseInt(m.innerText));
+        }
+    });
+    $(document).ready(function () {
+        let table = $("#schedulesTable").DataTable({
+            "dom": "lpftri",
+                "pageLength": -1,
+                "lengthMenu": [[50, 100,-1],[50, 100,"All"]],
+                "order":[[1,"asc"]],
+                "columns": [
+                    {
+                        className:'dt-control',
+                        orderable: false,
+                        data: null,
+                        defaultContent:''
+                    },
+                    {
+                        data:'Bus',
+                        type: 'num'
+                    },
+                    null,
+                    {
+                        data:'Total trip time',
+                        type: 'num',
+                        render: format_hhmm
+                    },
+                    {
+                        data:'Total deadheading time',
+                        type: 'num',
+                        render: format_hhmm
+                    },
+                    {
+                        data:'Total waiting time',
+                        type: 'num',
+                        render: format_hhmm
+                    },
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+					{
+					    data:'tripsIdx',
+						visible:false
+					}
+                ]
+            });
+        //Row showing and hiding
+        table.on('click', 'td.dt-control', function (e) {
+            if((e.target).closest('.tripsTable')){
+                return;
+            }
+            let tr = e.target.closest('tr');
+            let row = table.row(tr);
+            if (row.child.isShown()) {
+                row.child.hide();
+            }
+            else {
+                row.child(format_trips(row.data())).show();
+                datatable_trips(row);
+            }
+        });
+    });
+    function format_trips(data) {
+        // build table for trips
+        const tripsIdx = data['tripsIdx'];
+		const currentTrips = tripsData[tripsIdx];
+		let pullInPullOut = '';
+		if (pullOutData!=null && pullInData!=null) {
+            const po = pullOutData[tripsIdx];
+            const pi = pullInData[tripsIdx];
+            pullInPullOut = `<div>
+            <ul><li>
+                Pull-out: ${po['Depot']} &rarr; ${po['First departure']}, duration: ${format_hhmm(po['Pull-out time'])}
+            </li>
+            <li>
+                Pull-in: ${pi['Last arrival']} &rarr; ${pi['Depot']} duration: ${format_hhmm(pi['Pull-in time'])}
+            </li></ul>
+            </div>`;
+        }
+        else if (turnAroundData) {
+            const lr = turnAroundData[tripsIdx];
+            pullInPullOut = `<div>
+            <ul><li>
+                Last return: ${lr['Start stop']} &rarr; ${lr['End stop']}, duration: ${format_hhmm(lr['Return time'])}
+            </li></ul>
+            </div>`;
+        }
+        else {pullInPullOut = '';}
+		let tripTable = `<table width='90%' align='right' class='tripsTable cell-border compact stripe'><thead>
+        <tr>
+            <th>Trips<!--show/hide--></th>
+            <th>Day</th>
+            <th>Line</th>
+            <th>Trip</th>
+            <th>Departure time</th>
+            <th>From</th>
+            <th>Arrival time</th>
+            <th>To</th>
+            <th>Trip duration</th>
+            <th>Deadhead</th>
+            <th>Waiting</th>
+            <th>Stops index</th>
+            <th>Trips index</th>
+        </tr>
+        </thead><tbody>`;
+        let stopsIdx = 0;
+        for (let i = 0; i < currentTrips.length; i++) {
+            let trip = currentTrips[i];
+            tripTable += `<tr>
+                <td><!--show/hide--></td>
+                <td>${trip['Day']}</td>
+                <td>${trip['Line']}</td>
+                <td>${trip['Trip']}</td>
+                <td>${trip['Start time']}</td>
+                <td>${trip['Start stop']}</td>
+                <td>${trip['End time']}</td>
+                <td>${trip['End stop']}</td>
+                <td>${trip['Trip time']}</td>
+                <td>${trip['Deadhead time']||0}</td>
+                <td>${trip['Waiting time']||0}</td>
+                <td>${stopsIdx++}</td>
+                <td>${tripsIdx}</td>
+            </tr>`;
+        }
+        tripTable += `</tbody></table>`;
+        return pullInPullOut + tripTable;
+    }
+    function datatable_trips(row) {
+        let tripsTable =
+        row.child().find('table').DataTable({
+                "dom": "lpftri",
+                "pageLength": -1,
+                "lengthMenu": [[10, 25,-1],[10, 25,"All"]],
+                "order":[[1,"asc"],[6,"asc"]],
+                "columns": [
+                    {
+                        className:'dt-control',
+                        orderable: false,
+                        data: null,
+                        defaultContent:''
+                    },
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                        data:'Trip duration',
+                        type: 'num',
+                        render: function (data) {
+                            return format_hhmm(data);
+                        }
+                    },
+                    {
+                        data:'Deadhead duration',
+                        type: 'num',
+                        render: function (data) {
+                            return format_hhmm(data);
+                        }
+                    },
+                    {
+                        data:'Waiting duration',
+                        type: 'num',
+                        render: function (data) {
+                            return format_hhmm(data);
+                        }
+                    },
+                    {
+                        data:'stopsIdx',
+                        visible:false
+                    },
+                    {
+                        data:'tripsIdx',
+                        visible:false
+                    }
+                ]
+        });
+        tripsTable.on('click', 'td.dt-control', function (e) {
+            let tr = e.target.closest('tr');
+            let row = tripsTable.row(tr);
+            if (row.child.isShown()) {
+                row.child.hide();
+            }
+            else {
+                row.child(format_stops(row.data())).show();
+            }
+		});
+    }
+    function format_stops(data) {
+        // build table for stops
+        const stopsIdx = data['stopsIdx'];
+        const tripsIdx = data['tripsIdx'];
+        const currentStops = tripsData[tripsIdx][stopsIdx]['Stops'];
+        if (currentStops === undefined || currentStops.length === 0) {
+           return "<div>No stops data available</div>";
+        }
+        let tripTable = `<table><thead>
+        <tr>
+            <th>Stop</th>
+            <th>Time</th>
+        </tr>
+        </thead><tbody>`;
+        for (let stop_time of currentStops) {
+            //key-name of the stop, value-time
+            for (let key in stop_time) {
+                tripTable += `<tr>
+                    <td>${key}</td>
+                    <td>${stop_time[key]}</td>
+                </tr>`;
+                break;
+            }
+        }
+        tripTable += `</tbody></table>`;
+        return tripTable;
+    }
+	const tripsData = [
+		{% for bus in schedules %}
+		{{ bus['Trips'] | tojson}},
+		{% endfor %}
+	];
+	{% if schedules[0]['Turn-around'] %}
+	const turnAroundData = [
+        {% for bus in schedules %}
+        {{ bus['Turn-around'] | tojson}},
+        {% endfor %}
+    ];
+    {% else %}
+    const turnAroundData = null;
+    {% endif %}
+    {% if schedules[0]['Pull-out'] %}
+    const pullOutData = [
+        {% for bus in schedules %}
+        {{ bus['Pull-out'] | tojson}},
+        {% endfor %}
+    ];
+    {% else %}
+    const pullOutData = null;
+    {% endif %}
+    {% if schedules[0]['Pull-in'] %}
+    const pullInData = [
+        {% for bus in schedules %}
+        {{ bus['Pull-in'] | tojson}},
+        {% endfor %}
+    ];
+    {% else %}
+    const pullInData = null;
+    {% endif %}
+</script>
+</body>
+{% include 'footer.html' %}

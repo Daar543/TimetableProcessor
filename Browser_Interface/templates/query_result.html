@@ -1,0 +1,158 @@
+{% include 'header.html' %}
+<body>
+{% include 'navigation.html' %}
+<h1>Query results</h1>
+{% include 'inline_errors.html' %}
+<div class="tab-container">
+    <div class="tab-header">
+        <button class="{{'tab-button' + (' active' if focus=='trips' else '')}}" id="tripsBtn" data-tab="tripsDisplay">Trips</button>
+        <button class="{{'tab-button' + (' active' if focus=='departures' else '')}}" id="departuresBtn" data-tab="departuresDisplay">Departures</button>
+        <button class="{{'tab-button' + (' active' if focus=='arrivals' else '')}}" id="arrivalsBtn" data-tab="arrivalsDisplay">Arrivals</button>
+    </div>
+
+    <div class="tab-content">
+        <div id="tripsDisplay" class="{{'tab' + (' active' if focus=='trips' else '')}}">
+            {% if trips %}
+            <h2>Trips</h2>
+            <table id="tripsTable" class="cell-border compact stripe">
+                <thead>
+                <tr>
+                    <td>Day</td>
+                    <td>Line</td>
+                    <td>Trip</td>
+                    <td>Dep.</td>
+                    <td>First stop</td>
+                    <td>Arr.</td>
+                    <td>Last stop</td>
+                </thead>
+                <tbody>
+                {% for trip in trips %}
+                <tr>
+                    <td>{{ trip.Day }}</td>
+                    <td>{{ trip.LineNo }}</td>
+                    <td>{{ trip.TripNo }}</td>
+                    <td>{{ trip.TimeFrom }}</td>
+                    <td>{{ trip.StopFrom }}</td>
+                    <td>{{ trip.TimeTo }}</td>
+                    <td>{{ trip.StopTo }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <h2>No trips found</h2>
+            {% endif %}
+        </div>
+        <div id="departuresDisplay" class="{{'tab' + (' active' if focus=='departures' else '')}}">
+            {% if departures%}
+            <h2>Departures from stop: {{departures[0].Stop}}</h2>
+            <table id="departuresTable" class="cell-border compact stripe">
+                <thead>
+                <tr>
+                    <td>Day</td>
+                    <td>Dep. time</td>
+                    <td>Line</td>
+                    <td>Trip</td>
+                    <td>Dep.</td>
+                    <td>First stop</td>
+                    <td>Arr.</td>
+                    <td>Last stop</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for departure in departures %}
+                <tr>
+                    <td>{{ departure.Day }}</td>
+                    <td>{{ departure.Time }}</td>
+                    <td>{{ departure.LineNo }}</td>
+                    <td>{{ departure.TripNo }}</td>
+                    <td>{{ departure.TimeFrom }}</td>
+                    <td>{{ departure.StopFrom }}</td>
+                    <td>{{ departure.TimeTo }}</td>
+                    <td>{{ departure.StopTo }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <h2>No departures found</h2>
+            {% endif %}
+        </div>
+        <div id="arrivalsDisplay" class="{{'tab' + (' active' if focus=='arrivals' else '')}}">
+            {% if arrivals%}
+            <h2>Arrivals at stop: {{arrivals[0].Stop}}</h2>
+            <table id="arrivalsTable" class="cell-border compact stripe">
+                <thead>
+                <tr>
+                    <td>Day</td>
+                    <td>Arr. time</td>
+                    <td>Line</td>
+                    <td>Trip</td>
+                    <td>Dep.</td>
+                    <td>First stop</td>
+                    <td>Arr.</td>
+                    <td>Last stop</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for arrival in arrivals %}
+                <tr>
+                    <td>{{ arrival.Day }}</td>
+                    <td>{{ arrival.Time }}</td>
+                    <td>{{ arrival.LineNo }}</td>
+                    <td>{{ arrival.TripNo }}</td>
+                    <td>{{ arrival.TimeFrom }}</td>
+                    <td>{{ arrival.StopFrom }}</td>
+                    <td>{{ arrival.TimeTo }}</td>
+                    <td>{{ arrival.StopTo }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <h2>No arrivals found</h2>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        const buttons = document.querySelectorAll('.tab-button');
+        buttons.forEach(tab => {
+            tab.addEventListener('click', e => {
+                const targetTab = e.target.dataset.tab;
+                const tabs = document.querySelectorAll('.tab');
+
+                tabs.forEach(tab => {
+                    tab.classList.remove('active');
+                });
+                buttons.forEach(btn => {
+                    btn.classList.remove('active');
+                });
+
+                document.getElementById(targetTab).classList.add('active');
+                e.target.classList.add('active');
+            });
+        });
+        $("#tripsTable").DataTable({
+            "dom": "lpftrip",
+            "pageLength": 100,
+            "lengthMenu": [[10, 25, 50, 75, 100,-1],[10, 25, 50, 75, 100,"All"]],
+            "order":[[0,"asc"],[3,"asc"],[1,"asc"]]
+        });
+        $("#departuresTable").DataTable({
+            "dom": "lpftrip",
+            "pageLength": 100,
+            "lengthMenu": [[10, 25, 50, 75, 100,-1],[10, 25, 50, 75, 100,"All"]],
+            "order":[[0,"asc"],[1,"asc"],[2,"asc"],[3,"asc"]],
+        });
+        $("#arrivalsTable").DataTable({
+            "dom": "lpftrip",
+            "pageLength": 100,
+            "lengthMenu":[[10, 25, 50, 75, 100,-1],[10, 25, 50, 75, 100,"All"]],
+            "order":[[0,"asc"],[1,"asc"],[2,"asc"],[3,"asc"]],
+        });
+    })
+
+</script>
